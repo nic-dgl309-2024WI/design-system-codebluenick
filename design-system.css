@@ -1,0 +1,25 @@
+/*General reset for body to remove margin and padding*/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar styles */
+/*TOP NAVBAR*/
+.top-navbar {
+    background-color: var(--clr-primary);
+    color: var(--clr-white);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.top-navbar .logo,
+.top-navbar a {
+    color: var(--clr-white);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.top-navbar span { /*For items without a link*/
+    padding: 0.5rem 1rem;
+}
