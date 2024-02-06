@@ -23,3 +23,26 @@ body {
 .top-navbar span { /*For items without a link*/
     padding: 0.5rem 1rem;
 }
+/*SIDE NAVBAR*/
+.side-navbar {
+    background-color: var(--clr-secondary);
+    color: var(--clr-white);
+    padding: 1rem;
+    width: 250px; /* Adjust based on your design */
+    height: 100vh;
+    position: fixed;
+    overflow-y: auto;
+}
+.side-navbar h2 {
+    margin-top: 1rem;
+}
+.side-navbar ul {
+    list-style: none;
+    padding-left: 0;
+}
+.side-navbar a {
+    color: var(--clr-white);
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem 0;
+}
