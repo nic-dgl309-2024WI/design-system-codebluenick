@@ -1,0 +1,8 @@
+/*Color variables*/
+:root {
+    --clr-primary: #000000;/*black*/
+    --clr-secondary: #333333;/*dark grey*/
+    --clr-accent: #333333;/*dark grey*/
+    --clr-light: #cccccc;/*very light grey*/
+    --clr-white: #FFF;/*white*/
+}
