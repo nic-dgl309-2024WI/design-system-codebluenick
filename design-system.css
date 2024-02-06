@@ -46,3 +46,8 @@ body {
     display: block;
     padding: 0.5rem 0;
 }
+/*Highlight for active section/hover*/
+.side-navbar a:hover,
+.side-navbar a:active {
+    background-color: var(--clr-white);
+}
