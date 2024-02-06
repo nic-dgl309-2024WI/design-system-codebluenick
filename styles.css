@@ -6,3 +6,23 @@
     --clr-light: #cccccc;/*very light grey*/
     --clr-white: #FFF;/*white*/
 }
+
+/*CSS reset*/
+/*Border box fix*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*Margin reset*/
+body,
+h1, h2, h3, h4, h5, h6,
+p, figure, picture,
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+/*remove padding from list*/
+ul, ol {
+    list-style: none;
+}
