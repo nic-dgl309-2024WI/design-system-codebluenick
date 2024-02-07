@@ -6,6 +6,9 @@
     <title>Home</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <link rel="stylesheet" type="text/css" href="design-system.css" />
+    <script src="design-system.js"></script>
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
   </head>
   <body>
     <!--Top navbar-->
@@ -17,7 +20,7 @@
       <span>Demo Site</span>
     </nav>
     <!--Side navbar/ main directory-->
-    <aside class="side-navbar">
+    <aside class="side-navbar" id="side-navbar">
       <nav>
         <h2>Branding</h2>
         <ul>
@@ -55,11 +58,19 @@
         </ul>
       </nav>
     </aside>
-    <!--Mobile navbar-->
-    <div class="mobile-navbar">
-      <button class="hamburger-icon" onclick="toggleMenu()">☰</button>
-      <a href="index.html">Home</a>
-      <a href="about-me.html">About Me</a>
-    </div>
+<!--Mobile Navbar-->
+<nav class="mobile-navbar">
+  <a href="index.html">Design System</a>
+  <ul>
+      <li>
+        <span id="navbar-open" onclick="toggleNavbar(true)">
+          <i class="bx bx-menu"></i>
+        </span>
+        <span id="navbar-close" onclick="toggleNavbar(false)">
+          <i class="bx bx-x"></i>
+        </span>
+      </li>
+  </ul>
+</nav>
   </body>
 </html>
