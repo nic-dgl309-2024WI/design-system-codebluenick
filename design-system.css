@@ -49,4 +49,20 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 0px 5px;
-  }
+}
+nav a {
+    text-decoration: none;
+    color: var(--clr-primary);
+}
+nav ul {
+    list-style: none;
+    margin: 10px 0;
+}
+nav a:hover {
+    color: var(--accent-color);/*highlight on hover*/
+}
+.top-navbar,
+.side-navbar,
+#navbar-close {
+    display: none;/*hide on smaller screen initially*/
+}
