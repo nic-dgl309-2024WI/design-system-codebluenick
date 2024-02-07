@@ -9,6 +9,27 @@
     --clr-accent-dark: #C8B6DD;/*darker shade of purple*/
     --clr-white: #FFF;
 }  
+/*Base color utility classes*/
+.text-primary { color: var(--clr-primary-text); }
+.bg-primary { background-color: var(--clr-primary-bg); }
+
+.text-secondary { color: var(--clr-secondary-text); }
+.bg-secondary { background-color: var(--clr-secondary-bg); }
+
+.text-accent { color: var(--clr-accent); }
+.bg-accent { background-color: var(--clr-accent); }
+
+/*Tonal variations utility classes*/
+.text-accent-light { color: var(--clr-accent-light); }
+.bg-accent-light { background-color: var(--clr-accent-light); }
+
+.text-accent-dark { color: var(--clr-accent-dark); }
+.bg-accent-dark { background-color: var(--clr-accent-dark); }
+
+/*White color utility class*/
+.text-white { color: var(--clr-white); }
+.bg-white { background-color: var(--clr-white); }
+
 /*CSS reset*/
 /*Border box fix*/
 *,
