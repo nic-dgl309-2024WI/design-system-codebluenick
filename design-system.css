@@ -7,15 +7,14 @@ body {
 /* Navbar styles */
 /*TOP NAVBAR*/
 .top-navbar {
-    background-color: var(--clr-primary);
-    color: var(--clr-white);
+    background-color: var(--clr-accent-dark);
     display: flex;
     justify-content: space-between;
     padding: 1rem;
 }
 .top-navbar .logo,
 .top-navbar a {
-    color: var(--clr-white);
+    color: var(--clr-primary);
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
@@ -24,7 +23,7 @@ body {
 } 
 /*SIDE NAVBAR*/
 .side-navbar {
-    background-color: var(--clr-white);
+    background-color: var(--clr-accent-dark);
     color: var(--clr-secondary);
     padding: 1rem;
     width: 250px; /* Adjust based on your design */
