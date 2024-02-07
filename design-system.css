@@ -66,3 +66,17 @@ nav a:hover {
 #navbar-close {
     display: none;/*hide on smaller screen initially*/
 }
+
+/*Media Query for Larger Screens*/
+@media (min-width: 768px){
+    .mobile-navbar {
+        display: none;/*hide on larger screen*/
+    }
+    .top-navbar,
+    .top-navbar ul,
+    .side-navbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
