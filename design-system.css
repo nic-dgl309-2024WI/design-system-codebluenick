@@ -4,22 +4,6 @@ body {
     padding: 0;
 }
 
-/*Font variables*/
-:root {
-    /*Typefaces*/
-    --font-family-heading: 'DM Sans', sans-serif;
-    --font-family-body: 'Source Sans 3', sans-serif;
-    --font-family-button: 'Roboto', sans-serif;
-    /*Font sizes*/
-    --font-size-body: 16px;
-    --font-size-heading: 32px;
-    --font-size-button: 14px;
-    /*Font weights*/
-    --font-weight-heading: 700;/*Bold*/
-    --font-weight-body: 400;/*Regular*/
-    --font-weight-button: 500;/*Medium*/
-}
-
 /* Navbar styles */
 /*TOP NAVBAR*/
 .top-navbar {

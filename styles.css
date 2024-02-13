@@ -1,5 +1,5 @@
-/*Color variables*/
 :root {
+    /*Color variables*/
     --clr-primary-text: #212529;
     --clr-primary-bg: #F2D5E5;/*light pink*/
     --clr-accent: #007BFF;
@@ -8,7 +8,36 @@
     --clr-accent-light: #F5EEE5;/*very light brown*/
     --clr-accent-dark: #C8B6DD;/*darker shade of purple*/
     --clr-white: #FFF;
-}  
+    
+    /*Font variables*/
+    /*Typefaces*/
+    --font-family-heading: 'DM Sans', sans-serif;
+    --font-family-body: 'Source Sans 3', sans-serif;
+    --font-family-button: 'Roboto', sans-serif;
+    /*Font sizes*/
+    --font-size-body: 16px;
+    --font-size-heading: 32px;
+    --font-size-button: 14px;
+    /*Font weights*/
+    --font-weight-heading: 700;/*Bold*/
+    --font-weight-body: 400;/*Regular*/
+    --font-weight-button: 500;/*Medium*/
+}
+:root {
+  /*Typefaces*/
+  --font-family-heading: 'DM Sans', sans-serif;
+  --font-family-body: 'Source Sans 3', sans-serif;
+  --font-family-button: 'Roboto', sans-serif;
+  /*Font sizes*/
+  --font-size-body: 16px;
+  --font-size-heading: 32px;
+  --font-size-button: 14px;
+  /*Font weights*/
+  --font-weight-heading: 700;/*Bold*/
+  --font-weight-body: 400;/*Regular*/
+  --font-weight-button: 500;/*Medium*/
+}
+
 /*Base color utility classes*/
 .text-primary { color: var(--clr-primary-text); }
 .bg-primary { background-color: var(--clr-primary-bg); }
