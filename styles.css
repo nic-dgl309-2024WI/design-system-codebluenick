@@ -1,3 +1,23 @@
+/*CSS reset*/
+/*Border box fix*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*Margin reset*/
+body,
+h1, h2, h3, h4, h5, h6,
+p, figure, picture,
+ul, ol {
+  margin: 0;
+  padding: 0;
+}
+/*remove padding from list*/
+ul, ol {
+    list-style: none;
+}
+
 :root {
     /*Color variables*/
     --clr-primary-text: #212529;
@@ -22,22 +42,10 @@
     --font-weight-heading: 700;/*Bold*/
     --font-weight-body: 400;/*Regular*/
     --font-weight-button: 500;/*Medium*/
-}
-:root {
-  /*Typefaces*/
-  --font-family-heading: 'DM Sans', sans-serif;
-  --font-family-body: 'Source Sans 3', sans-serif;
-  --font-family-button: 'Roboto', sans-serif;
-  /*Font sizes*/
-  --font-size-body: 16px;
-  --font-size-heading: 32px;
-  --font-size-button: 14px;
-  /*Font weights*/
-  --font-weight-heading: 700;/*Bold*/
-  --font-weight-body: 400;/*Regular*/
-  --font-weight-button: 500;/*Medium*/
+
 }
 
+/*Color utility classes*/
 /*Base color utility classes*/
 .text-primary { color: var(--clr-primary-text); }
 .bg-primary { background-color: var(--clr-primary-bg); }
@@ -58,23 +66,3 @@
 /*White color utility class*/
 .text-white { color: var(--clr-white); }
 .bg-white { background-color: var(--clr-white); }
-
-/*CSS reset*/
-/*Border box fix*/
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-/*Margin reset*/
-body,
-h1, h2, h3, h4, h5, h6,
-p, figure, picture,
-ul, ol {
-  margin: 0;
-  padding: 0;
-}
-/*remove padding from list*/
-ul, ol {
-    list-style: none;
-}
