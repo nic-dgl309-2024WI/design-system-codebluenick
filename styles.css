@@ -66,3 +66,19 @@ ul, ol {
 /*White color utility class*/
 .text-white { color: var(--clr-white); }
 .bg-white { background-color: var(--clr-white); }
+
+/*Font utility classes*/
+/*Font family utility class*/
+.u-ff-heading { font-family: var(--font-family-heading); }
+.u-ff-body { font-family: var(--font-family-body); }
+.u-ff-button { font-family: var(--font-family-button); }
+
+/*Font size utility class*/
+.u-fs-heading { font-size: var(--font-size-heading); }
+.u-fs-body { font-size: var(--font-size-body); }
+.u-fs-button { font-size: var(--font-size-button); }
+
+/*Font weight utility class*/
+.u-fw-heading { font-weight: var(--font-weight-heading); }
+.u-fw-body { font-weight: var(--font-weight-body); }
+.u-fw-button { font-weight: var(--font-weight-button); } 
