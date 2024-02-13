@@ -4,6 +4,13 @@ body {
     padding: 0;
 }
 
+/*Font variables*/
+:root {
+    --font-family-heading: 'DM Sans', sans-serif;
+    --font-family-body: 'Source Sans 3', sans-serif;
+    --font-family-button: 'Roboto', sans-serif;
+}
+
 /* Navbar styles */
 /*TOP NAVBAR*/
 .top-navbar {
