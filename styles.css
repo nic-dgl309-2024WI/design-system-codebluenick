@@ -42,7 +42,9 @@ ul, ol {
     --font-weight-heading: 700;/*Bold*/
     --font-weight-body: 400;/*Regular*/
     --font-weight-button: 500;/*Medium*/
-
+    /*Line height*/
+    --font-lh-1: 1;
+    --font-lh-2: 2;
 }
 
 /*Color utility classes*/
@@ -82,3 +84,7 @@ ul, ol {
 .u-fw-heading { font-weight: var(--font-weight-heading); }
 .u-fw-body { font-weight: var(--font-weight-body); }
 .u-fw-button { font-weight: var(--font-weight-button); } 
+
+/*Line height utility class*/
+.u-lh-1 { line-height: 1; }
+.u-lh-2 { line-height: 2;}
