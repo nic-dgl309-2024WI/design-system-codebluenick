@@ -66,6 +66,34 @@ nav a:hover {
     display: none;/*hide on smaller screen initially*/
 }
 
+/*TYPOGRAPHY PAGE STYLES*/
+/*styles for font uses table and utility class uses table*/
+/*css reference from OpenAI. (2024). ChatGPT (3.5). https://chat.openai.com*/
+.f-use-table, .u-class-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.f-use-table th, .f-use-table td,
+.u-class-table th, .u-class-table td {
+  text-align: left;
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.f-use-table th, .u-class-table th {
+    background-color: #f2f2f2;
+}
+
+.f-use-table tr:nth-child(even), .u-class-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+  
+.f-use-table tr:hover, .u-class-table tr:hover {
+    background-color: #eaeaea;
+}
+
 /*Media Query for Larger Screens*/
 @media (min-width: 768px){
     .mobile-navbar {
