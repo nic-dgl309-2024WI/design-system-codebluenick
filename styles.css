@@ -44,7 +44,10 @@ ul, ol {
     --font-weight-button: 500;/*Medium*/
     /*Line height*/
     --font-lh-1: 1;
-    --font-lh-2: 2;
+    --font-lh-15: 1.5;
+    /*Letter spacing*/
+    --font-ls-1: 1px;
+    --font-ls-2: 2px;
 }
 
 /*Color utility classes*/
@@ -87,4 +90,8 @@ ul, ol {
 
 /*Line height utility class*/
 .u-lh-1 { line-height: 1; }
-.u-lh-2 { line-height: 2;}
+.u-lh-15 { line-height: 1.5;}
+
+/*Letter spacing utility class*/
+.u-ls-1 { letter-spacing: 1px; }
+.u-ls-2 { letter-spacing: 2px; }
