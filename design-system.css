@@ -109,8 +109,4 @@ nav a:hover {
     .side-navbar .side-nav-links {/*hide navlinks from side nav*/
         display: none;
     }
-
-    .side-navbar{
-        display: none;
-    }
 }
