@@ -106,4 +106,7 @@ nav a:hover {
         flex-direction: row;
         justify-content: space-between;
     }
+    .side-navbar .side-nav-links {/*hide navlinks from side nav*/
+        display: none;
+    }
 }
