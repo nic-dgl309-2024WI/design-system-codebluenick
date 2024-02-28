@@ -17,3 +17,16 @@ function toggleNavbar(isVisible) {
         logo.style.display = "none";
     }
 }
+
+//This removes the active class from all links and adds it to the link that matches
+//the current page url
+document.addEventListener("DOMContentLoaded", function() {
+    var navLinks = document.querySelectorAll('.side-navbar a');
+    var currentUrl = window.location.pathname.split('/').pop();
+
+    navLinks.forEach(function(link) {
+      if (link.getAttribute('href') === currentUrl) {
+        link.classList.add('active');
+      }
+    });
+});

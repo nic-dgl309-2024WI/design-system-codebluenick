@@ -18,9 +18,7 @@ body {
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
-/*.top-navbar span { /*For items without a link*/
-    /*padding: 0.5rem 1rem;
-} 
+
 /*SIDE NAVBAR*/
 .side-navbar {
     background-color: var(--clr-accent-dark);
@@ -37,11 +35,21 @@ body {
     display: block;
     padding: 0.5rem 0;
 }
-/*Highlight for active section/hover*/
-.side-navbar a:hover,
-.side-navbar a:active {
-    background-color: var(--clr-white);
+/* Highlight for active section/hover*/
+/*Changes the bg color on hover*/
+.side-navbar a:hover {
+  background-color: var(--clr-accent); 
+  color: var(--clr-white);
+  font-weight: bold;
+  cursor: pointer; /* Changes the cursor to indicate clickable items */
 }
+
+/*Changes the color of the active link*/
+.side-navbar a.active {
+    color: var(--clr-primary-text); 
+    font-weight: bold;
+}
+
 /*MOBILE NAVBAR*/
 .mobile-navbar {
     display: flex;
@@ -60,14 +68,7 @@ nav ul {
 nav a:hover {
     color: var(--accent-color);/*highlight on hover*/
 }
-
-/*Changes the color of the active link*/
-.active {
-    color: #ffffff; /* Example: changes the color of the active link */
-    font-weight: bold;
-}
-
-
+  
 /*This will hide the topnav and sidenav on smaller screen initially*/
 .top-navbar,
 .side-navbar,
