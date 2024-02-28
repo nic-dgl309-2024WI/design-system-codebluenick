@@ -60,10 +60,19 @@ nav ul {
 nav a:hover {
     color: var(--accent-color);/*highlight on hover*/
 }
+
+/*Changes the color of the active link*/
+.active {
+    color: #ffffff; /* Example: changes the color of the active link */
+    font-weight: bold;
+}
+
+
+/*This will hide the topnav and sidenav on smaller screen initially*/
 .top-navbar,
 .side-navbar,
 #navbar-close {
-    display: none;/*hide on smaller screen initially*/
+    display: none;
 }
 
 /*TYPOGRAPHY PAGE STYLES*/
