@@ -23,10 +23,10 @@ ul, ol {
 :root {
     /*Color variables*/
     --clr-primary-text: #212529;
-    --clr-primary-bg: #F2D5E5;/*light pink*/
-    --clr-accent: #595087;/*deep lavender*/
-    --clr-secondary-bg: #B7AFC0;/*very light purple*/
     --clr-secondary-text: #424242;
+    --clr-primary-bg: #F2D5E5;/*light pink*/
+    --clr-secondary-bg: #B7AFC0;/*very light purple*/
+    --clr-accent: #595087;/*deep lavender*/
     --clr-accent-light: #F5EEE5;/*very light brown*/
     --clr-accent-dark: #C8B6DD;/*darker shade of purple*/
     --clr-white: #FFF;
