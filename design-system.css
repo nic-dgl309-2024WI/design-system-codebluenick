@@ -77,6 +77,8 @@ nav ul {
 }
 
 /*TYPOGRAPHY PAGE STYLES*/
+/*Add a border for the font family section*/
+
 /*styles for font uses table and utility class uses table*/
 /*css reference from OpenAI. (2024). ChatGPT (3.5). https://chat.openai.com*/
 .f-use-table, .u-class-table {
