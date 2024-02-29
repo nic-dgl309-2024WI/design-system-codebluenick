@@ -78,7 +78,15 @@ nav ul {
 
 /*TYPOGRAPHY PAGE STYLES*/
 /*Add a border for the font family section*/
-
+.font-families {
+    border: 2px solid var(--clr-accent);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+}
+.font-families div{
+    padding: 8px
+}
 /*styles for font uses table and utility class uses table*/
 /*css reference from OpenAI. (2024). ChatGPT (3.5). https://chat.openai.com*/
 .f-use-table, .u-class-table {
