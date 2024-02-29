@@ -12,7 +12,7 @@
   </head>
   <body>
     <!--Top navbar-->
-    <nav class="top-navbar u-ff-heading u-fs-body u-fw-heading">
+    <nav class="top-navbar u-ff-heading u-fs-body u-fw-bold">
       <a href="index.html" class="logo">Design System</a>
       <div class="nav-links"></div>
       <a href="about-me.html">About Me</a>
@@ -20,7 +20,7 @@
       <span>Demo Site</span>
     </nav>
     <!--Side navbar/ main directory-->
-    <aside class="side-navbar u-ff-body u-fs-body u-fw-body" id="side-navbar">
+    <aside class="side-navbar u-ff-body u-fs-body u-fw-regular" id="side-navbar">
       <nav>
         <div class="side-nav-links">
       <a href="about-me.html">About Me</a>
@@ -64,7 +64,7 @@
       </nav>
     </aside>
 <!--Mobile Navbar-->
-<nav class="mobile-navbar u-ff-body u-fs-body u-fw-body">
+<nav class="mobile-navbar u-ff-body u-fs-body u-fw-regular">
   <a href="index.html">Design System</a>
   <ul>
       <li>
@@ -80,24 +80,24 @@
 
 <!--Typography section-->
 <section class="typography">
-  <h1 class="u-ff-heading u-fs-heading u-fw-heading">Typography in this Design System</h1>
+  <h1 class="u-ff-heading u-fs-heading u-fw-bold">Typography in this Design System</h1>
   <p class="u-ff-body u-fs-body u-fw-body">This page showcases the typographic standards for headings, body text, and buttons.</p>
 </section>
 <section class="font-families">
-  <h2 class="u-ff-heading u-fs-heading u-fw-heading">Font Families</h2>
+  <h2 class="u-ff-heading u-fs-heading u-fw-bold">Font Families</h2>
   <div class="font-family-body">
-      <h3 class="u-ff-body u-fs-heading u-fw-heading">Source Sans 3</h3>
-      <p class="u-ff-body u-fs-body u-fw-body">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z<br>a b c d e f g h i j k l m n o p q r s t u v w x y z<br>0 1 2 3 4 5 6 7 8 9</p>
+      <h3 class="u-ff-body u-fs-heading u-fw-bold">Source Sans 3</h3>
+      <p class="u-ff-body u-fs-body u-fw-regular">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z<br>a b c d e f g h i j k l m n o p q r s t u v w x y z<br>0 1 2 3 4 5 6 7 8 9</p>
   </div>
   <div class="font-family-button">
-      <h3 class="u-ff-button u-fs-heading u-fw-heading">Roboto</h3>
-      <p class="u-ff-button u-fs-body u-fw-body">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z<br>a b c d e f g h i j k l m n o p q r s t u v w x y z<br>0 1 2 3 4 5 6 7 8 9</p>
+      <h3 class="u-ff-heading u-fs-heading u-fw-bold">Roboto</h3>
+      <p class="u-ff-heading u-fs-body u-fw-regular">A B C D E F G H I J K L M N O P Q R S T U V W X Y Z<br>a b c d e f g h i j k l m n o p q r s t u v w x y z<br>0 1 2 3 4 5 6 7 8 9</p>
   </div>
 </section>
 
 <!--Using table to display font uses-->
 <section>
-  <h2 class="u-ff-heading u-fs-heading u-fw-heading">Font uses:</h2>
+  <h2 class="u-ff-body u-fs-heading u-fw-bold">Font uses:</h2>
 <table class="f-use-table">
   <thead>
     <tr class="u-ff-body">
@@ -112,7 +112,7 @@
   <tbody class="u-ff-body">
     
     <!--Source Sans 3 (Body text)-->
-    <tr class="uu-ff-body u-fs-body u-fw-body"></tr>
+    <tr class="u-ff-body u-fs-body u-fw-regular"></tr>
     <td>Body text</td>
     <td>Source Sans 3</td>
     <td>16px</td>
@@ -120,20 +120,29 @@
     <td>Regular</td>
     <td>u-ff-body</td>
 
-    <!--Roboto (Buttons)-->
-    <tr class="uu-ff-button u-fs-body u-fw-body"></tr>
-    <td>CTA Buttons</td>
+    <!--Roboto (Headings)-->
+    <tr class="u-ff-heading u-fs-heading u-fw-regular"></tr>
+    <td>Headings</td>
     <td>Roboto</td>
-    <td>14px</td>
-    <td>500</td>
+    <td>32px</td>
+    <td>700</td>
     <td>Regular</td>
-    <td>u-ff-button</td>
+    <td>u-ff-heading</td>
+
+     <!--Source Sans 3 (Buttons)-->
+     <tr class="u-ff-body u-fs-body u-fw-regular"></tr>
+     <td>CTA Buttons</td>
+     <td>Source Sans 3</td>
+     <td>14px</td>
+     <td>500</td>
+     <td>Regular</td>
+     <td>u-ff-heading</td>
   </tbody>
   
 </table>
 </section>
 
-<h2 class="u-ff-heading u-fs-heading u-fw-heading">Utility class specification table:</h2>
+<h2 class="u-ff-heading u-fs-heading u-fw-bold">Utility class specification table:</h2>
 <!--Table to specify utility classes-->
 <section>
   <table class="u-class-table u-ff-body">
@@ -152,9 +161,9 @@
         <td><span class="u-ff-body">Source Sans Text</span></td>
       </tr>
       <tr>
-        <td>.u-ff-button</td>
-        <td>Applies the font family (Roboto) for buttons</td>
-        <td><span class="u-ff-button">Roboto Text</span></td>
+        <td>.u-ff-heading</td>
+        <td>Applies the font family (Roboto) for headings</td>
+        <td><span class="u-ff-heading">Roboto Text</span></td>
       </tr>
 
       <!--Font size utility classes-->
@@ -176,19 +185,19 @@
 
       <!--Font weight utility classes-->
       <tr>
-        <td>.u-fw-heading</td>
+        <td>.u-fw-bold</td>
         <td>Applies font weight (700) for headings</td>
-        <td><span class="u-fw-heading">Headings</span></td>
+        <td><span class="u-fw-bold">Headings</span></td>
       </tr>
       <tr>
-        <td>.u-fw-body</td>
+        <td>.u-fw-regular</td>
         <td>Applies font size (400) for body text</td>
-        <td><span class="u-fw-body">Body text</span></td>
+        <td><span class="u-fw-regular">Body text</span></td>
       </tr>
       <tr>
-        <td>.u-fw-button</td>
+        <td>.u-fw-medium</td>
         <td>Applies font size (500) for buttons</td>
-        <td><span class="u-fw-button">Button text</span></td>
+        <td><span class="u-fw-medium">Button text</span></td>
       </tr>
 
       <!--Line height utility classes-->
@@ -217,5 +226,5 @@
     </tbody>
   </table>
 </section>
-  </body>
+</body>
 </html>

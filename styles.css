@@ -34,15 +34,15 @@ ul, ol {
     /*Font variables*/
     /*Typefaces*/
     --font-family-body: 'Source Sans 3', sans-serif;
-    --font-family-button: 'Roboto', sans-serif;
+    --font-family-heading: 'Roboto', sans-serif;
     /*Font sizes*/
     --font-size-body: 16px;
     --font-size-heading: 32px;
     --font-size-button: 14px;
     /*Font weights*/
-    --font-weight-heading: 700;/*Bold*/
-    --font-weight-body: 400;/*Regular*/
-    --font-weight-button: 500;/*Medium*/
+    --font-weight-bold: 700;/*Bold*/
+    --font-weight-regular: 400;/*Regular*/
+    --font-weight-medium: 500;/*Medium*/
     /*Line height*/
     --font-lh-1: 1;
     --font-lh-15: 1.5;
@@ -76,15 +76,17 @@ ul, ol {
 /*Font utility classes*/
 /*Font family utility class*/
 .u-ff-body { font-family: var(--font-family-body); }
-.u-ff-button { font-family: var(--font-family-button); }
+.u-ff-heading { font-family: var(--font-family-heading); }
 
 /*Font size utility class*/
 .u-fs-body { font-size: var(--font-size-body); }
+.u-fs-heading { font-size: var(--font-size-heading); }
 .u-fs-button { font-size: var(--font-size-button); }
 
 /*Font weight utility class*/
-.u-fw-body { font-weight: var(--font-weight-body); }
-.u-fw-button { font-weight: var(--font-weight-button); } 
+.u-fw-bold { font-weight: var(--font-weight-bold); }
+.u-fw-regular { font-weight: var(--font-weight-regular); } 
+.u-fw-medium { font-weight: var(--font-weight-medium);}
 
 /*Line height utility class*/
 .u-lh-1 { line-height: 1; }
