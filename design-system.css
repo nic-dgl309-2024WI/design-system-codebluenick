@@ -109,6 +109,7 @@ body {
     align-items: center;
     width: 100%;
     position: fixed;
+    background-color: var(--clr-white);
 }
 nav a {
     text-decoration: none;
