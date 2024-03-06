@@ -179,6 +179,25 @@ nav ul {
     background-color: #eaeaea;
 }
 
+/*CONTAINERS Page styles*/
+.flexbox-content {
+    border: 1px solid #ddd; /* Adds a subtle border */
+    border-radius: 5px; /* Softens the corners */
+}
+.flexbox-content p{
+    border: 1px solid #eaeaea;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.grid-content {
+    border: 1px solid #ddd; /* Adds a subtle border */
+    border-radius: 5px; /* Softens the corners */
+}
+.grid-content p{
+    border: 1px solid #eaeaea;
+    border-radius: 3px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
 /*Media Query for Larger Screens*/
 @media (min-width: 768px){
     .mobile-navbar {
