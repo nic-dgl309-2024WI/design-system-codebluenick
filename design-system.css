@@ -185,6 +185,7 @@ nav ul {
 .flexbox-content {
     border: 1px solid #ddd; /* Adds a subtle border */
     border-radius: 5px; /* Softens the corners */
+    gap: 4rem;
 }
 .flexbox-content p{
     border: 1px solid #eaeaea;
@@ -201,6 +202,10 @@ nav ul {
     border-radius: 3px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
+
+/*SPACING Page styles*/
+
+
 /*Media Query for Larger Screens*/
 @media (min-width: 768px){
     .mobile-navbar {
