@@ -118,7 +118,17 @@ nav ul {
 
 
 /*COLORS PAGE STYLES*/
-
+/*Styles for the color swatches*/
+.swatch {
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions for hover */
+    overflow: hidden; /* Ensures the child elements adhere to the border radius */
+}
+.swatch:hover {
+  transform: translateY(-5px); /* Slight lift effect on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
 
 
 /*TYPOGRAPHY PAGE STYLES*/
