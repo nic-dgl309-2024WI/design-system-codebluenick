@@ -52,6 +52,14 @@ body {
     z-index: 5;
 }
 
+/* Main Content Area - Scrollable */
+.ds-content {
+    margin-left: 16rem; /* Make room for side nav */
+    flex-grow: 1;
+    padding: 1rem;
+    overflow-y: auto;
+}
+
 /*SIDE NAVBAR*/
 /*styles for the side nav bar*/
 /* .side-navbar {
