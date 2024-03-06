@@ -116,6 +116,11 @@ nav ul {
     display: none;
 }
 
+
+/*COLORS PAGE STYLES*/
+
+
+
 /*TYPOGRAPHY PAGE STYLES*/
 /*Add a border for the font family section*/
 .font-families {
@@ -168,5 +173,18 @@ nav ul {
     }
     .ds-side-nav .side-nav__links {/*hide navlinks from side nav*/
         display: none;
+    }
+    .ds-body {
+        flex-direction: row;
+    }
+    .ds-side-nav {
+        width: 250px; /* Fixed width for side nav */
+        height: calc(100vh - 50px); /* Full height minus top nav */
+        top: 50px;
+    }
+    .ds-content {
+        margin-top: 0;
+        margin-left: 250px; /* Make space for the side nav */
+        width: calc(100% - 250px); /* Adjust content width */
     }
 }
