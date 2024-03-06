@@ -80,7 +80,7 @@
 
 <!--Layout class section-->
 <!--Flexbox layout content-->
-<div class="ds-content">
+<div class=" flexbox-content ds-content">
 <section>
   <h2 class="u-ff-heading u-fs-heading u-fw-bold text-accent u-ls-1 l-p">Flex Containers</h2>
   <p class="u-ff-body u-fs-body u-fw-bold l-p">Classes to create flexible layouts with CSS Flexbox.</p>
@@ -101,6 +101,25 @@
       <p>.l-align-stretch { align-items: stretch; }</p>
   </div>
 </section>
+</div>
+
+<!--Grid layout content-->
+<div class="grid-content ds-content">
+  <section>
+    <h2 class="u-ff-heading u-fs-heading u-fw-bold text-accent u-ls-1 l-p">Grid Containers</h2>
+    <p class="u-ff-body u-fs-body u-fw-bold l-p">Classes to create grid-based layouts with CSS Flexbox.</p>
+    <div class="layout-class-names u-ff-body u-fs-body u-fw-body l-p">
+        <p>.l-grid { display: grid; }</p>
+        <!-- Add more grid-related classes -->
+        <p>.l-grid-cols-2 { grid-template-columns: repeat(2, 1fr); }</p>
+        <p>.l-grid-cols-3 { grid-template-columns: repeat(3, 1fr); }</p>
+        <p>.l-grid-rows-2 { grid-template-rows: repeat(2, 1fr); }</p>
+        <p>.l-grid-rows-3 { grid-template-rows: repeat(3, 1fr); }</p>
+        <p>.l-gap-1 { gap: 1rem; }</p>
+        <p>.l-gap-x-1 { column-gap: 1rem; }</p>
+        <p>.l-gap-y-1 { row-gap: 1rem; }</p>
+    </div>
+  </section>
 </div>
   </body>
 </html>
