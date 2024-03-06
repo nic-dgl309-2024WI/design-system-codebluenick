@@ -180,6 +180,7 @@ nav ul {
 }
 
 /*CONTAINERS Page styles*/
+/*Flexbox content styles*/
 .flexbox-content {
     border: 1px solid #ddd; /* Adds a subtle border */
     border-radius: 5px; /* Softens the corners */
@@ -189,8 +190,9 @@ nav ul {
     border-radius: 3px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
+/*Grid content*/
 .grid-content {
-    border: 1px solid #ddd; /* Adds a subtle border */
+    border: 1px solid #eaeaea; /* Adds a subtle border */
     border-radius: 5px; /* Softens the corners */
 }
 .grid-content p{
