@@ -11,17 +11,25 @@ body {
 
 /* Navbar styles */
 /*TOP NAVBAR*/
-.top-navbar {
+/* .top-navbar {
     background-color: var(--clr-accent-dark);
     display: flex;
     justify-content: space-between;
     padding: 1rem;
+} */
+.top-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--clr-accent-dark);
+    z-index: 10;
+    padding: 0.8rem 1rem;
 }
 
 .top-navbar__links {
     color: var(--clr-primary);
-    text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.2rem 0.2rem;
 }
 
 /*SIDE NAVBAR*/
