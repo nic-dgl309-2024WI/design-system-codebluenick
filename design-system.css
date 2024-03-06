@@ -32,17 +32,37 @@ body {
     padding: 0.2rem 0.2rem;
 }
 
+/* Body container style*/
+.ds-body {
+    padding-top: 3rem;
+    display: flex;
+    min-height: 100vh;
+}
+
+/* Side navbar container style*/
+.ds-side-nav {
+    position: fixed;
+    top: 3rem; /* Adjust based on top nav height */
+    left: 0;
+    width: 250px;
+    height: calc(100% - 3rem); /* Full height minus top nav */
+    overflow-y: auto;
+    background-color: #eee;
+    padding: 1rem;
+    z-index: 5;
+}
+
 /*SIDE NAVBAR*/
 /*styles for the side nav bar*/
-.side-navbar {
+/* .side-navbar {
     background-color: var(--clr-accent-dark);
     color: var(--clr-secondary);
-    padding: 1rem;
-    width: 250px; /* Adjust based on your design */
-    height: 100vh;
+    padding: 1rem; */
+    /* width: 250px; Adjust based on your design */
+    /* height: 100vh;
     position: fixed;
     overflow-y: auto;
-}
+} */
 /*styles for the side nav links*/
 .side-navbar a {
     color: var(--clr-primary);
