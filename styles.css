@@ -51,7 +51,7 @@ ul, ol {
     --font-ls-2: 2px;
 }
 
-/*Color utility classes*/
+/*COLOR utility classes*/
 /*Base color utility classes*/
 .text-primary { color: var(--clr-primary-text); }
 .bg-primary { background-color: var(--clr-primary-bg); }
@@ -73,7 +73,7 @@ ul, ol {
 .text-white { color: var(--clr-white); }
 .bg-white { background-color: var(--clr-white); }
 
-/*Font utility classes*/
+/*FONT utility classes*/
 /*Font family utility class*/
 .u-ff-body { font-family: var(--font-family-body); }
 .u-ff-heading { font-family: var(--font-family-heading); }
@@ -95,6 +95,18 @@ ul, ol {
 /*Letter spacing utility class*/
 .u-ls-1 { letter-spacing: 1px; }
 .u-ls-2 { letter-spacing: 2px; }
+
+/*SPACING utility classes*/
+.spacing-vertical-1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.spacing-horizontal-1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 
 
 /*Spacing classes*/
