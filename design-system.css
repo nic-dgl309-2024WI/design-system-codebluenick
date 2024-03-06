@@ -58,6 +58,7 @@ body {
     /* margin-left: 12rem; Make room for side nav */
     flex-grow: 1;
     padding: 1rem;
+    max-width: fit-content;
 }
 
 /*SIDE NAVBAR*/

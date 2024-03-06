@@ -5,10 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="design-system.css" />
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
   </head>
   <body>
-      <!-- add your name -->
-    <h1 class="u-ff-heading u-fs-heading ufw-body">Hi! My name is Nikhil Chhetri.</h1>
+    <!--Top navbar-->
+    <nav class="top-navbar u-ff-heading u-fs-body u-fw-bold l-flex l-justify-between">
+      <a href="index.html" class="logo">Design System</a>
+      <a class="top-navbar__links" href="about-me.html">About Me</a>
+      <!--Placeholder for Demo Site (no link yet)-->
+      <span>Demo Site</span>
+    </nav>
+    <!--Mobile Navbar-->
+    <nav class="mobile-navbar u-ff-body u-fs-body u-fw-body">
+      <a href="index.html">Design System</a>
+      <ul>
+          <li>
+            <span id="navbar-open" onclick="toggleNavbar(true)">
+              <i class="bx bx-menu"></i>
+            </span>
+            <span id="navbar-close" onclick="toggleNavbar(false)">
+              <i class="bx bx-x"></i>
+            </span>
+          </li>
+      </ul>
+    </nav>
+    <!--Body content-->
+    <div class="about-me-content l-pt-1-25 l-pl-1-25 l-pr-1-25">
+    <!-- add your name -->
+    <h1 class="u-ff-heading u-fs-heading ufw-body ds-body">Hi! My name is Nikhil Chhetri.</h1>
     <h2>I am a web developer.</h2>
     <!-- add your portrait photo -->
     <img
@@ -35,5 +61,6 @@
       <li>CSS</li>
       <li>MySql</li>
     </ul>
+  </div>
   </body>
 </html>
