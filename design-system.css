@@ -12,8 +12,8 @@ body {
     justify-content: space-between;
     padding: 1rem;
 }
-.top-navbar .logo,
-.top-navbar a {
+
+.top-navbar__links {
     color: var(--clr-primary);
     text-decoration: none;
     padding: 0.5rem 1rem;
@@ -126,7 +126,7 @@ nav ul {
         flex-direction: row;
         justify-content: space-between;
     }
-    .side-navbar .side-nav-links {/*hide navlinks from side nav*/
+    .side-navbar .side-nav__links {/*hide navlinks from side nav*/
         display: none;
     }
 }
