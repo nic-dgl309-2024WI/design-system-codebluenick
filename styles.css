@@ -162,3 +162,16 @@ ul, ol {
 /* Additional classes for grid items */
 .l-grid-item { grid-column: span 1; } /* Makes the item span 1 column */
 .l-grid-item-2 { grid-column: span 2; } /* Makes the item span 2 columns */
+
+
+/*Base Container classes for Mobile */
+.container-mobile {
+  max-width: 100%; /* Takes full width on mobile */
+  padding: 0 1rem; /* Adds some padding on the sides */
+  margin: 0 auto; /* Centers the container */
+}
+
+.container-full-width {
+  width: 100%; /* Takes full width regardless of the device */
+  margin: 0 auto; /* Centers the container */
+}
