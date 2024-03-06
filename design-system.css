@@ -1,8 +1,13 @@
-/*General reset for body to remove margin and padding*/
+/* General reset for body to remove margin and padding */
 body {
     margin: 0;
     padding: 0;
 }
+
+/* Prevent overscroll */
+:root {
+    overscroll-behavior: none;
+  }
 
 /* Navbar styles */
 /*TOP NAVBAR*/
