@@ -148,3 +148,17 @@ ul, ol {
 .l-align-end { align-items: flex-end; } /* Aligns items to the end of the cross axis */
 .l-align-center { align-items: center; } /* Aligns items in the center of the cross axis */
 .l-align-stretch { align-items: stretch; } /* Stretches items to fill the container */
+
+/* Grid Layout */
+.l-grid { display: grid; } /* Establishes a grid container */
+.l-grid-cols-2 { grid-template-columns: repeat(2, 1fr); } /* Defines a grid with 2 columns of equal width */
+.l-grid-cols-3 { grid-template-columns: repeat(3, 1fr); } /* Defines a grid with 3 columns of equal width */
+.l-grid-rows-2 { grid-template-rows: repeat(2, 1fr); } /* Defines a grid with 2 rows of equal height */
+.l-grid-rows-3 { grid-template-rows: repeat(3, 1fr); } /* Defines a grid with 3 rows of equal height */
+.l-gap-1 { gap: 1rem; } /* Sets both row and column gaps to 1rem */
+.l-gap-x-1 { column-gap: 1rem; } /* Sets gap between columns to 1rem */
+.l-gap-y-1 { row-gap: 1rem; } /* Sets gap between rows to 1rem */
+
+/* Additional classes for grid items */
+.l-grid-item { grid-column: span 1; } /* Makes the item span 1 column */
+.l-grid-item-2 { grid-column: span 2; } /* Makes the item span 2 columns */
