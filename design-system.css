@@ -44,7 +44,7 @@ body {
     position: fixed;
     top: 3rem; /* Adjust based on top nav height */
     left: 0;
-    width: 250px;
+    width: 12rem;
     height: calc(100% - 3rem); /* Full height minus top nav */
     overflow-y: auto;
     background-color: var(--clr-accent-dark);
@@ -54,7 +54,7 @@ body {
 
 /* Main Content Area - Scrollable */
 .ds-content {
-    margin-left: 16rem; /* Make room for side nav */
+    margin-left: 12rem; /* Make room for side nav */
     flex-grow: 1;
     padding: 1rem;
     overflow-y: auto;
