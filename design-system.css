@@ -47,7 +47,7 @@ body {
     width: 250px;
     height: calc(100% - 3rem); /* Full height minus top nav */
     overflow-y: auto;
-    background-color: #eee;
+    background-color: var(--clr-accent-dark);
     padding: 1rem;
     z-index: 5;
 }
@@ -64,7 +64,7 @@ body {
     overflow-y: auto;
 } */
 /*styles for the side nav links*/
-.side-navbar a {
+.ds-side-nav a {
     color: var(--clr-primary);
     text-decoration: none;
     display: block;
@@ -159,7 +159,7 @@ nav ul {
         flex-direction: row;
         justify-content: space-between;
     }
-    .side-navbar .side-nav__links {/*hide navlinks from side nav*/
+    .ds-side-nav .side-nav__links {/*hide navlinks from side nav*/
         display: none;
     }
 }
