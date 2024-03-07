@@ -141,6 +141,15 @@ nav ul {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
 }
 
+.circular-swatch {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /*TYPOGRAPHY PAGE STYLES*/
 /*Add a border for the font family section*/
