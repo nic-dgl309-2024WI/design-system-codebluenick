@@ -131,6 +131,7 @@ nav ul {
 /*COLORS PAGE STYLES*/
 /*Styles for the color swatches*/
 .swatch {
+    border: 2px double var(--clr-accent); /* Adds a border around the card */
     border-radius: 8px; /* Rounded corners */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions for hover */
