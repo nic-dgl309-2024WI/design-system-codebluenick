@@ -205,18 +205,6 @@ nav ul {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-/*Grid content*/
-.grid-content {
-    border: 1px solid #eaeaea; /* Adds a subtle border */
-    border-radius: 5px; /* Softens the corners */
-}
-.grid-content p{
-    border: 1px solid #eaeaea;
-    border-radius: 3px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
-}
-
-
 
 /*CONTAINERS Page styles*/
 /*Containers content styles*/
@@ -225,22 +213,23 @@ nav ul {
     border-radius: 5px; /* Softens the corners */
     gap: 4rem;
 }
-.containers-content p{
+.content-card{
     border: 2px solid var(--clr-accent); /* Adds a border around the card */
     border-radius: 3px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
+
+.layout-class-names p{
+    background-color: #f0f0f0;/*temp color*/
+    border-left: 4px solid var(--clr-accent);
+    border-radius: 0.2rem;/*rounded corners*/
+}
+
 /*Grid content*/
 .grid-content {
     border: 2px solid var(--clr-accent);
     border-radius: 5px; /* Softens the corners */
 }
-.grid-content p{
-    border: 2px solid var(--clr-accent);
-    border-radius: 3px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-}
-
 
 
 /*Media Query for Larger Screens*/
