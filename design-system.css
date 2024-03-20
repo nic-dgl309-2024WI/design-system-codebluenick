@@ -158,12 +158,8 @@ nav ul {
     border-radius: 8px;
     box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    padding: 20px;
-    margin: 20px;
 }
-.font-families div{
-    padding: 8px
-}
+
 /*styles for font uses table and utility class uses table*/
 /*css reference from OpenAI. (2024). ChatGPT (3.5). https://chat.openai.com*/
 .f-use-table, .u-class-table {
