@@ -34,7 +34,7 @@ body {
 
 /* Body container style*/
 .ds-body {
-    padding-top: 3rem;
+    padding-top: 4rem;
     display: flex;
 }
 
@@ -212,7 +212,6 @@ nav ul {
 .containers-content {
     border: 2px solid var(--clr-accent); /* Adds a border around the card */
     border-radius: 5px; /* Softens the corners */
-    gap: 4rem;
 }
 .content-card{
     border: 2px solid var(--clr-accent); /* Adds a border around the card */
@@ -226,11 +225,6 @@ nav ul {
     border-radius: 0.2rem;/*rounded corners*/
 }
 
-/*Grid content*/
-.grid-content {
-    border: 2px solid var(--clr-accent);
-    border-radius: 5px; /* Softens the corners */
-}
 
 
 /*Media Query for Larger Screens*/
