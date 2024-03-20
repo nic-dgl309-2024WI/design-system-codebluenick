@@ -179,7 +179,7 @@ ul, ol {
 /*Base Container classes for Mobile */
 .container-mobile {
   max-width: 100%; /* Takes full width on mobile */
-  padding: 0 1rem; /* Adds some padding on the sides */
+  padding: 0 2rem; /* Adds some padding on the sides */
   margin: 0 auto; /* Centers the container */
 }
 
