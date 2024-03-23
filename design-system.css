@@ -162,6 +162,7 @@ nav ul {
 /*FONT USE SECTION*/
 /*Cards for font uses*/
 .ds-font-use {
+    border: 2px solid var(--clr-accent);
     border-radius: 8px;
     padding: 1.6rem;
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
