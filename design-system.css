@@ -159,7 +159,14 @@ nav ul {
     box-shadow:0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
 }
-
+/*FONT USE SECTION*/
+/*Cards for font uses*/
+.ds-font-use {
+    border-radius: 8px;
+    padding: 1.6rem;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 /*styles for font uses table and utility class uses table*/
 /*css reference from OpenAI. (2024). ChatGPT (3.5). https://chat.openai.com*/
 .f-use-table, .u-class-table {
