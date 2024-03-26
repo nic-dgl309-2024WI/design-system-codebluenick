@@ -264,4 +264,11 @@ nav ul {
         margin-left: 250px; /* Make space for the side nav */
         width: calc(100% - 250px); /* Adjust content width */
     }
+
+    .ds-containers-content{/*layout for the containers content to be side by side*/
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 2rem;
+    }
 }
