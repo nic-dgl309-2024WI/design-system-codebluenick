@@ -236,8 +236,6 @@ nav ul {
     border-radius: 0.2rem;/*rounded corners*/
 }
 
-
-
 /*Media Query for Larger Screens*/
 @media (min-width: 768px){
     .mobile-navbar {
