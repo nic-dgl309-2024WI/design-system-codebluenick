@@ -230,7 +230,7 @@ nav ul {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.layout-class-names p{
+.c-layout-class-names p{
     background-color: #f0f0f0;/*temp color*/
     border-left: 4px solid var(--clr-accent);
     border-radius: 0.2rem;/*rounded corners*/
@@ -270,5 +270,13 @@ nav ul {
         flex-direction: row;
         justify-content: center;
         padding: 2rem;
+    }
+
+    .ds-font-uses{
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        justify-content: center;
+        align-items: start;
     }
 }
