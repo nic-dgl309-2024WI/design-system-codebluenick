@@ -189,3 +189,13 @@ ul, ol {
   width: 100%; /* Takes full width regardless of the device */
   margin: 0 auto; /* Centers the container */
 }
+
+
+
+/**************************************/
+/******STYLES FOR OUTBACK NURSERY******/
+/**************************************/
+
+.on-top-nabar {
+  display: flex;
+}
