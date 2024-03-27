@@ -220,11 +220,11 @@ nav ul {
 
 /*CONTAINERS Page styles*/
 /*Containers content styles*/
-.containers-content {
+.c-content {
     border: 2px solid var(--clr-accent); /* Adds a border around the card */
     border-radius: 5px; /* Softens the corners */
 }
-.content-card{
+.c-content-card{
     border: 2px solid var(--clr-accent); /* Adds a border around the card */
     border-radius: 3px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
