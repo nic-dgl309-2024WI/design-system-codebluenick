@@ -196,7 +196,9 @@ ul, ol {
 /******STYLES FOR OUTBACK NURSERY******/
 /**************************************/
 
+/*Top navbar styles*/
 .on-top-navbar {
+  display: none;
   position: fixed;
   width: 100%;
   top: 0;
@@ -207,4 +209,3 @@ ul, ol {
   padding: 20px 100px;
   transition: 0.5s;
 }
-
