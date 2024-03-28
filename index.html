@@ -6,7 +6,7 @@
     <title>Home</title>
     <link rel="stylesheet" type="text/css" href="Design_System/styles.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-    <script src="design-system.js"></script>
+    <script src="Design_System/design-system.js"></script>
   </head>
   <body class="ds-body l-p l-justify-center l-align-center">
     
@@ -32,17 +32,17 @@
     <!--Mobile Navbar-->
     <nav class="on-mobile-navbar u-ff-body u-fs-body u-fw-bold">
         <a class="on-logo l-flex l-align-center l-gap-1 u-ff-heading u-fs-body u-fw-regular">Outback Nursery</a><!--Add Logo for Outback Nursery-->
-
-        <!--Mobile navbar list to show the hamburger menu icon-->
         <ul>
-            <li>
-                <span id="on-navbar-open"><!--onclick="toggleNavbar(true)"-->
-                <i class="bx bx-menu"></i></span>
-                <span id="on-navbar-close"><!--onclick="toggleNavbar(false)"-->
-                <i class="bx bx-x"></i></span>
-            </li>
+          <li>
+            <span id="on-navbar-open" onclick="toggleNavbar(true)">
+              <i class="bx bx-menu"></i>
+            </span>
+            <span id="on-navbar-close" onclick="toggleNavbar(false)">
+              <i class="bx bx-x"></i>
+            </span>
+          </li>
         </ul>
-    </nav>
+      </nav>
 
     <!--Side Navbar for mobile (intially hidden)-->
     <aside class="on-mobile-sidenav" id="on-side-navbar">
