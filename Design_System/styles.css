@@ -196,6 +196,15 @@ ul, ol {
 /******STYLES FOR OUTBACK NURSERY******/
 /**************************************/
 
-.on-top-nabar {
-  display: flex;
+.on-top-navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  background: var(--clr-accent-dark);
+  box-shadow: 0 18px 11px rgb(15 55 54 / 15%);
+  padding: 20px 100px;
+  transition: 0.5s;
 }
+
