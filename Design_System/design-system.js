@@ -50,10 +50,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Function to hide the side navbar
   on_navbarClose.addEventListener("click", function() {
-  on_SideNavbar.style.transform = "translateX(-100%)"; // Assuming CSS transitions
+  on_SideNavbar.style.transform = "translateX(-200%)"; // Assuming CSS transitions
   this.style.display = "none";
   on_navbarOpen.style.display = "flex";
   //if (logo) logo.style.display = "flex"; // Show logo if it exists
   });
 });
-
