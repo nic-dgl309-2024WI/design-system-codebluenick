@@ -196,7 +196,7 @@ ul, ol {
 /******STYLES FOR OUTBACK NURSERY******/
 /**************************************/
 
-/*Top navbar styles*/
+/*Top navbar styles(desktop)*/
 .on-top-navbar {
   display: none;
   position: fixed;
@@ -208,4 +208,15 @@ ul, ol {
   box-shadow: 0 18px 11px rgb(15 55 54 / 15%);
   padding: 20px 100px;
   transition: 0.5s;
+}
+
+/*Side navbar styles(only for mobile view)*/
+.on-mobile-sidenav {
+  position: fixed;
+  top:2rem;
+  height: calc(100vh - 50px);/*Full height minus top nav*/
+  right: -100%;/*hide side-navbar initially*/
+  width: 250px;/*fixed width for sidenav*/
+  transition: right 0.3s;
+  z-index: 1000;/*ensure it's high enough to overlay content*/
 }

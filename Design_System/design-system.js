@@ -1,6 +1,6 @@
 //Add more js later
 function toggleNavbar(isVisible) {
-    let sideNavbar = document.getElementById("side-navbar");
+    let sideNavbar = document.getElementById("ds-side-navbar");
     let navbarToggle = document.getElementById("navbar-toggle");
     if (isVisible) {
         // When isVisible is true (showing the navbar)
@@ -30,3 +30,6 @@ document.addEventListener("DOMContentLoaded", function() {
       }
     });
 });
+
+//js to toggle side-nav-bar in mobile screen (Outback Nursery)
+
