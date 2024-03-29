@@ -264,6 +264,16 @@ ul, ol {
   text-align: center;
 }
 
+/*styles for social link btn on hero section*/
+.on-s-link-btn{
+  background-color: #4267B2; /* Facebook blue */
+  color: var(--clr-white);
+  border-radius: 6px;
+  padding: 0.8rem 1rem;
+  width: 80%;
+  margin: auto;
+}
+
 
 
 
