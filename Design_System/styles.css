@@ -202,6 +202,22 @@ ul, ol {
   display: none;
 }
 
+/*Add color and padding to top-nav anchors*/
+.on-top-navbar a{
+  color: var(--clr-primary-text);
+  padding: 0.5rem 1rem;
+  text-decoration: none;/*remove underline*/
+}
+
+/*Change color and add transition on top nav a hover*/
+.on-top-navbar a:hover{
+  background: var(--clr-accent);
+  border-radius: 6rem;
+  color: var(--clr-accent-light);
+  transition: background 0.5s;
+}
+
+
 /*Styles for the Mobile NAVBAR*/
 .on-mobile-navbar {
   top: 0;
@@ -239,6 +255,8 @@ ul, ol {
 #on-navbar-close {/*hide the close icon initially*/
   display: none;
 }
+
+
 
 
 /*Media query for larger screens*/
