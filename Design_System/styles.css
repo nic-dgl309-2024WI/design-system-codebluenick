@@ -116,6 +116,7 @@ ul, ol {
 .l-mt-1 { margin-top: 1rem; } /* 1rem = 16px */
 .l-mr-1 { margin-right: 1rem; }
 .l-mb-1 { margin-bottom: 1rem; }
+.l-mb-4 { margin-bottom: 4rem;}
 .l-ml-1 { margin-left: 1rem; }
 .l-mx-1 { margin-left: 1rem; margin-right: 1rem; } /* Apply 1rem margin to both X-axis sides */
 .l-my-1 { margin-top: 1rem; margin-bottom: 1rem; } /* Apply 1rem margin to both Y-axis sides */
