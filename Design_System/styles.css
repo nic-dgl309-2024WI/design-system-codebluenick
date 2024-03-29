@@ -196,12 +196,13 @@ ul, ol {
 /******STYLES FOR OUTBACK NURSERY******/
 /**************************************/
 
-/*Hide topnav initially*/
+/*TOP NAVBAR STYLES*/
+/*Hide topnav on mobile view*/
 .on-top-navbar{
   display: none;
 }
 
-/*Styles for the Mobile nav-bar (mobile)*/
+/*Styles for the Mobile NAVBAR*/
 .on-mobile-navbar {
   top: 0;
   left: 0;
@@ -211,8 +212,6 @@ ul, ol {
   justify-content: space-between;
   align-items: center;
 }
-
-
 
 /*Side navbar styles(only for mobile view)*/
 /*.on-mobile-sidenav {
@@ -224,7 +223,7 @@ ul, ol {
   /*transition: right 0.3s;
   z-index: 1000;/*ensure it's high enough to overlay content*/
 /*}*/
-/*Side navbar styles (only for mobile view)*/
+/*SIDE NAVBAR styles (only for mobile view)*/
 .on-mobile-sidenav {
   position: fixed;
   top: 2rem; /* Adjusted to the height of the mobile navbar */
@@ -244,7 +243,7 @@ ul, ol {
 
 /*Media query for larger screens*/
 @media (min-width: 768px){
-  /*Top navbar styles(desktop)*/
+  /*TOP NAVBAR styles(desktop)*/
   .on-top-navbar {
     display: flex;
     position: fixed;
