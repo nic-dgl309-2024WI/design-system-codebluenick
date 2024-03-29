@@ -131,6 +131,7 @@ ul, ol {
 .l-p { padding: 1rem; } /* Apply 1rem padding to all sides */
 .l-p-4 { padding: 4rem;}/* Apply 4rem padding to all sides */
 .l-pt-1 { padding-top: 1rem; }
+.l-pt-2 { padding-top: 2rem;}
 .l-pt-4 { padding-top: 4rem;}
 .l-pr-1 { padding-right: 1rem; }
 .l-pb-1 { padding-bottom: 1rem; }
