@@ -256,6 +256,13 @@ ul, ol {
   display: none;
 }
 
+/*HERO SECTION STYLES (Welcome message)*/
+.on-hero-section{
+  height: 100vh;
+  background-color: var(--clr-secondary-bg);
+  text-align: center;
+}
+
 
 
 
