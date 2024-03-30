@@ -292,11 +292,16 @@ ul, ol {
 }
 
 /*FOOTER Styles*/
+
 .on-footer{
   background-color: var(--clr-accent);/*adds bg color for footer*/
-  
+  text-align: center;/*align text to center*/
 }
 
+/*styles for footer links*/
+.on-f-nav-links{
+  color: var(--clr-accent-light);
+}
 
 
 /*Media query for larger screens*/
