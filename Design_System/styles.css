@@ -275,6 +275,19 @@ ul, ol {
   margin: auto;
 }
 
+/*Banner image container styles*/
+.on-banner-container{
+  width: 100%;
+  padding-top: 25%;
+  position: relative;
+}
+
+.on-banner-container img{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
 
 
