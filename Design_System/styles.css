@@ -291,6 +291,13 @@ ul, ol {
   left: 0;
 }
 
+/*Carousel on Card section styles for a little something about the nursery*/
+.on-carousel-card {
+  position: relative;
+  /* width: 90%; */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
 /*FOOTER Styles*/
 
 .on-footer {
