@@ -292,7 +292,10 @@ ul, ol {
 }
 
 /*FOOTER Styles*/
-
+.on-footer{
+  background-color: var(--clr-accent);/*adds bg color for footer*/
+  
+}
 
 
 
