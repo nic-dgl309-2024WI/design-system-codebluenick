@@ -202,19 +202,19 @@ ul, ol {
 
 /*TOP NAVBAR STYLES*/
 /*Hide topnav on mobile view*/
-.on-top-navbar{
+.on-top-navbar {
   display: none;
 }
 
 /*Add color and padding to top-nav anchors*/
-.on-top-navbar a{
+.on-top-navbar a {
   color: var(--clr-primary-text);
   padding: 0.5rem 1rem;
   text-decoration: none;/*remove underline*/
 }
 
 /*Change color and add transition on top nav a hover*/
-.on-top-navbar a:hover{
+.on-top-navbar a:hover {
   background: var(--clr-accent);
   border-radius: 6rem;
   color: var(--clr-accent-light);
@@ -261,14 +261,14 @@ ul, ol {
 }
 
 /*HERO SECTION STYLES (Welcome message)*/
-.on-hero-section{
+.on-hero-section {
   height: 100vh;
   background-color: var(--clr-secondary-bg);
   text-align: center;
 }
 
 /*styles for social link btn on hero section*/
-.on-s-link-btn{
+.on-s-link-btn {
   background-color: #4267B2; /* Facebook blue */
   color: var(--clr-white);
   border-radius: 6px;
@@ -278,13 +278,13 @@ ul, ol {
 }
 
 /*Banner image container styles*/
-.on-banner-container{
+.on-banner-container {
   width: 100%;
   padding-top: 25%;
   position: relative;
 }
 
-.on-banner-container img{
+.on-banner-container img { 
   width: 100%;
   position: absolute;
   top: 0;
@@ -293,19 +293,19 @@ ul, ol {
 
 /*FOOTER Styles*/
 
-.on-footer{
+.on-footer {
   background-color: var(--clr-accent);/*adds bg color for footer*/
   text-align: center;/*align text to center*/
 }
 
 /*styles for footer links*/
-.on-f-nav-links{
+.on-f-nav-links {
   color: var(--clr-accent-light);
 }
 
 
 /*Media query for larger screens*/
-@media (min-width: 768px){
+@media (min-width: 768px) {
   /*TOP NAVBAR styles(desktop)*/
   .on-top-navbar {
     display: flex;
@@ -319,4 +319,15 @@ ul, ol {
     padding: 20px 100px;
     transition: 0.5s;
   }
+
+  /*FOOTER styles(desktop)*/
+  .on-footer {
+    margin-top: 26rem;/*add space between footer and above content*/
+    padding: 4rem;/*add padding to the footer content*/
+  }
+  .on-footer-content {/*responsiveness for footer*/
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
 }
