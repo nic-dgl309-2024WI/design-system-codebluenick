@@ -305,6 +305,7 @@ ul, ol {
 .on-carousel-slide {
   display: none;
   flex: 0 0 100% ;/*each slide will take full width of the container but doesn't grow or shrink*/
+  text-align: center;
 }
 
 .on-carousel-btn {
