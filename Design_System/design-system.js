@@ -56,3 +56,27 @@ document.addEventListener("DOMContentLoaded", function() {
   //if (logo) logo.style.display = "flex"; // Show logo if it exists
   });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+  let currentSlide = 0;
+  const slides = document.querySelectorAll('.on-carousel-slide');
+  const showSlide = (index) => {
+    slides.forEach((slide, i) => {
+      slide.style.display = i === index ? 'flex' : 'none';
+      slide.classList.remove('active');
+    });
+    slides[index].classList.add('active');
+  };
+
+  document.querySelector('.on-c-c-prev').addEventListener('click', () => {
+    currentSlide = currentSlide <= 0 ? slides.length - 1 : currentSlide - 1;
+    showSlide(currentSlide);
+  });
+
+  document.querySelector('.on-c-c-next').addEventListener('click', () => {
+    currentSlide = currentSlide >= slides.length - 1 ? 0 : currentSlide + 1;
+    showSlide(currentSlide);
+  });
+
+  showSlide(currentSlide); // Initialize the carousel
+});
