@@ -361,6 +361,25 @@ ul, ol {
     transition: 0.5s;
   }
 
+  /*Carousel Card styles(desktop)*/
+  .on-carousel-card-section {
+    padding-top: 20rem;/*add space between the content above*/
+    max-width: 200rem;
+  }
+  .on-carousel-card {
+    width: 80rem; /* Or whatever fixed width is suitable */
+    max-width: 100%; /* Prevents overflow on smaller screens */
+  }
+
+  .on-carousel-content, .on-carousel-slide {
+    min-height: 10rem; /* Adjust this for your desktop layout */
+  }
+
+  .on-carousel-slide {
+    flex: 0 0 100% ;/*each slide will take full width of the container but doesn't grow or shrink*/
+    text-align: center;
+  }
+
   /*FOOTER styles(desktop)*/
   .on-footer {
     margin-top: 26rem;/*add space between footer and above content*/
