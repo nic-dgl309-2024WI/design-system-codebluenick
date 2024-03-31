@@ -264,7 +264,14 @@ ul, ol {
 .on-hero-section {
   height: 100vh;
   text-align: center;
-  background-color: var(--clr-secondary-bg);
+  /*background-color: var(--clr-secondary-bg);*/
+  /*BG Image styles*/
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),/*adds a dark bg effect to the image to make the txt easier to read*/
+  url('/OutbackNursery_Images/bg-try.png');/*adds bg image to hero section*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 /*styles for social link btn on hero section*/
