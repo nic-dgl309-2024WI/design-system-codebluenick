@@ -263,8 +263,8 @@ ul, ol {
 /*HERO SECTION STYLES (Welcome message)*/
 .on-hero-section {
   height: 100vh;
-  background-color: var(--clr-secondary-bg);
   text-align: center;
+  background-color: var(--clr-secondary-bg);
 }
 
 /*styles for social link btn on hero section*/
@@ -275,6 +275,19 @@ ul, ol {
   padding: 0.8rem 1rem;
   width: 80%;
   margin: auto;
+}
+
+/*Sidenav styles(mobile view only)*/
+.on-sidenav-links{
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s ease, transform 0.3s ease; /* Smooth transitions for hover effects */
+}
+.on-sidenav-links:hover {
+  text-decoration: none;
+  color: var(--clr-white);
+  background-color: var(--clr-accent); /*add a background color change */
+  text-decoration: none; /* Ensure text decoration is none or customize as needed */
+  transform: translateX(5px); /* Slight move to the right to add dynamism */
 }
 
 /*Banner image container styles*/
