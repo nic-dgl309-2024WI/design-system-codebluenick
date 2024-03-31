@@ -272,6 +272,7 @@ ul, ol {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  color: var(--clr-accent-light);/*text color for hero content*/
 }
 
 /*styles for social link btn on hero section*/
