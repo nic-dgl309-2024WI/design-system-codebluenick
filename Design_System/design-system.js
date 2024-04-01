@@ -57,6 +57,8 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
+
+/*js to add slider functionality to the about carousel on card */
 document.addEventListener('DOMContentLoaded', function() {
   let currentSlide = 0;
   const slides = document.querySelectorAll('.on-carousel-slide');
