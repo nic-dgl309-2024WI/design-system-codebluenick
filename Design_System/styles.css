@@ -353,6 +353,55 @@ ul, ol {
 .on-c-c-prev { left: 1rem; }
 .on-c-c-next { right: 1rem; }
 
+/*HOT PICKS CAROUSEL WITH CARDS SECTION styles*/
+.on-hp-container {
+  max-width: 1120px;
+  width: 100%;
+  padding: 40px 0;
+}
+
+.on-slide-content {
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.on-hp-card{
+  border-radius: 25px;
+  background-color: #FFF;
+}
+
+.on-hp-card-img,
+.on-hp-card-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+
+.on-hp-card-img{
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0;
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+  font-size: 35px;
+}
+.swiper-button-next{
+  right: 0;
+}
+.swiper-button-prev{
+  left: 0;
+}
+.swiper-pagination-bullet{
+  background-color: #6E93f7;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active{
+  background-color: #4070F4;
+}
 
 /*FOOTER Styles*/
 
