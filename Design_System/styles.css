@@ -484,7 +484,14 @@ ul, ol {
 
 /*styles for footer links*/
 .on-f-nav-links {
-  color: var(--clr-accent-light);
+  color: var(--clr-accent-dark);/*light lavender for nav links*/
+  text-decoration: none;/*remove underlines*/
+  transition: color 0.3s ease;/*smooth transition for hover effect*/
+}
+
+.on-f-nav-links:hover, .on-f-nav-links:focus {
+  color: var(--clr-white);/*change txt to white*/
+  text-decoration: underline;/*adds underline*/
 }
 
 
