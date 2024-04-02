@@ -494,6 +494,15 @@ ul, ol {
   text-decoration: underline;/*adds underline*/
 }
 
+.on-f-s-links {
+  color: var(--clr-accent-dark);/*light lavender for nav links*/
+  text-decoration: none;/*remove underlines*/
+  transition: color 0.3s ease;/*smooth transition for hover effect*/
+}
+
+.on-f-s-links .on-s-icons:hover, .on-f-nav-links:focus {
+  color: var(--clr-white);/*change txt to white*/
+}
 
 /*Media query for larger screens*/
 @media (min-width: 768px) {
