@@ -82,3 +82,24 @@ document.addEventListener('DOMContentLoaded', function() {
 
   showSlide(currentSlide); // Initialize the carousel
 });
+
+/*js for accordion */
+document.addEventListener('DOMContentLoaded',function() {
+  document.querySelectorAll('.on-accordion-button').forEach(button => {
+    button.addEventListener('click', function() {
+      const expanded = this.getAttribute('aria-expanded') === 'true' || false;
+      this.setAttribute('aria-expanded', !expanded);
+      const content = this.nextElementSibling;
+      if (!expanded) {
+        content.style.maxHeight = content.scrollHeight + 'px';
+        content.style.paddingTop = '15px';
+        content.style.paddingBottom = '30px';
+      } else {
+        content.style.maxHeight = 0;
+        content.style.paddingTop = 0;
+        content.style.paddingBottom = 0;
+      }
+    });
+  });
+});
+
