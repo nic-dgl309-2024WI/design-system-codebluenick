@@ -457,6 +457,24 @@ ul, ol {
   padding: 2rem 0;
 }
 
+/*Testimonials section styles*/
+.on-testimonial-section {
+  text-align: center;
+}
+
+.on-testimonial-item {
+  background-color: var(--clr-white);
+  border-left: 4px solid var(--clr-accent);
+  width: 90%;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.on-testimonial-author {
+  text-align: right;
+}
+
+
 /*FOOTER Styles*/
 
 .on-footer {
