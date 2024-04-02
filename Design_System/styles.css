@@ -202,9 +202,9 @@ ul, ol {
 /**************************************/
 
 /*TOP NAVBAR STYLES*/
-/*Hide topnav on mobile view*/
 .on-top-navbar {
-  display: none;
+  display: none;/*Hide topnav on mobile view*/
+  position: fixed;/*fixed position for top nav*/
 }
 
 /*Add color and padding to top-nav anchors*/
@@ -232,6 +232,8 @@ ul, ol {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: var(--clr-white);/*white bg for mobile navbar*/
+  z-index: 1000;/*ensure that the mobile nav is on top layer*/
 }
 
 /*Side navbar styles(only for mobile view)*/
@@ -519,6 +521,11 @@ ul, ol {
     box-shadow: 0 18px 11px rgb(15 55 54 / 15%);
     padding: 20px 100px;
     transition: 0.5s;
+  }
+
+  /*Turn the display off for mobile navbar on desktop*/
+  .on-mobile-navbar {
+    display: none;
   }
 
   /*Carousel Card styles(desktop)*/
