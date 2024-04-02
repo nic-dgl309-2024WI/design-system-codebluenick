@@ -379,7 +379,7 @@ ul, ol {
   padding: 10px 14px;
 }
 
-.on-hp-card-img{
+.on-hp-card-img {
   position: relative;
   row-gap: 5px;
   padding: 25px 0;
@@ -402,6 +402,19 @@ ul, ol {
 .swiper-pagination-bullet-active{
   background-color: #4070F4;
 }
+
+/*Services offered section styles*/
+.on-services-description {
+  grid-column: 1/2;/*occupies the first column*/
+  grid-row: 1;/*starts from 1st row*/
+}
+
+.on-services-list {
+  grid-column: 2/3;/*occupies the 2nd column*/
+  grid-row: 2;/*starts from 2nd row*/
+  justify-self: end;/*aligns the list at the end*/
+}
+
 
 /*FOOTER Styles*/
 
