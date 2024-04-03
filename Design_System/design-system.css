@@ -264,7 +264,39 @@ nav ul {
   .on-accordion-content p,
   .on-accordion-content ol {
     padding: 2rem 0;
+}
+
+/*STYLES FOR CODE SNIPPET CONTAINER*/
+.ds-code-snippet-container {
+    position: relative;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    overflow: auto;
+    font-family: monospace;
   }
+  
+  pre {
+    margin: 0;
+  }
+  
+  .ds-copy-btn {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  .ds-copy-btn:hover {
+    background-color: #45a049;
+  }
+  
 
 /*Media Query for Larger Screens*/
 @media (min-width: 768px){
