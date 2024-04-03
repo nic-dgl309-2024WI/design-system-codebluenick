@@ -411,11 +411,39 @@ ul, ol {
   grid-row: 1;/*starts from 1st row*/
 }
 
+.on-services-description {
+  border: 2px solid var(--clr-accent);
+  border-radius: 0.6rem;
+  padding: 1.2rem;
+}
+
 .on-services-list {
   grid-column: 2/3;/*occupies the 2nd column*/
   grid-row: 2;/*starts from 2nd row*/
   justify-self: end;/*aligns the list at the end*/
 }
+
+.on-services-list {
+  border: 2px solid var(--clr-accent); /* Light grey background for contrast */
+  border-radius: 0.6rem; /* Softens the edges of the container */
+  padding: 1.2rem; /* Adds space inside the container */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+
+
+.on-services-list li {
+  background-image: url('path-to-your-icon.svg'); /* Icon for list items, replace with your path */
+  background-repeat: no-repeat;
+  background-size: 16px 16px; /* Adjust based on the size of your icons */
+  background-position: 0 50%;
+  padding-left: 24px; /* Space for the icon */
+  margin-bottom: 8px; /* Space between list items */
+  color: #666; /* Slightly lighter text color for the list items */
+  font-size: 16px; /* Adjust based on your design */
+}
+
+
 
 /*Gift Certificate Accordion styles*/
 .on-accordion-button {
