@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
   initializeNavbar(); // Initialize navbar toggle functionality
   initializeActiveLinkHighlighting(); // Highlight the active link based on current URL
   initializeMobileSidebarToggle(); // Toggle sidebar for mobile screens
+  copyToClipboard();
   initializeAboutCarousel(); // Initialize carousel in the about section
   initializeAccordion(); // Initialize accordion functionality
   initializeCardSlider(); // Initialize card slider functionality
@@ -60,6 +61,19 @@ function initializeMobileSidebarToggle() {
       on_navbarOpen.style.display = "flex";
   });
 }
+
+// Function to copy to clipboard
+function copyToClipboard(element) {
+  const code = element.previousElementSibling.textContent; // Get code text
+  const textarea = document.createElement('textarea');
+  textarea.value = code;
+  document.body.appendChild(textarea);
+  textarea.select();
+  document.execCommand('copy');
+  document.body.removeChild(textarea);
+  alert("Code copied to clipboard!"); // Feedback to the user
+}
+
 
 // Function to add carousel functionality to the "about" section
 function initializeAboutCarousel() {
