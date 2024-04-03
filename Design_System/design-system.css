@@ -237,6 +237,34 @@ nav ul {
 }
 
 /*ACCORDION PAGE STYLES*/
+.on-accordion-button:hover {
+    background-color: hsl(262, 78%, 20%);/*temp color on hover*/
+  }
+  
+  .on-accordion-button[aria-expanded="true"] {
+    background-color: var(--clr-accent);
+  }
+  
+  .on-accordion-button[aria-expanded="true"] .on-accordion-icon {
+    transform: rotate(-180deg);
+  }
+  
+  .on-accordion-icon {
+    float: right;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .on-accordion-content {
+    background-color: #f8f9fa;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out, padding 0.2s ease-out;
+    max-height: 0;
+  }
+  
+  .on-accordion-content p,
+  .on-accordion-content ol {
+    padding: 2rem 0;
+  }
 
 /*Media Query for Larger Screens*/
 @media (min-width: 768px){
