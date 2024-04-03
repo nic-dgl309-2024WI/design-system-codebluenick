@@ -338,6 +338,10 @@ ul, ol {
   border: 2px solid var(--clr-accent);
 }
 
+.on-carousel-card-head {
+  text-align: center;
+}
+
 .on-carousel-content {
   overflow: hidden;
 }
@@ -508,6 +512,16 @@ ul, ol {
   padding: 2rem 0;
 }
 
+/*Plan your visit section styles*/
+.on-visit-tips {
+  list-style-type: none; /* Removes default list bullets */
+  margin-top: 20px; /* Adds some space above the list */
+}
+
+.on-visit-tips li strong {
+  color: var(--clr-accent); /* Highlights the keyword in each tip */
+}
+
 /*Testimonials section styles*/
 .on-testimonial-section {
   text-align: center;
@@ -608,6 +622,10 @@ ul, ol {
     display: flex;
     flex-direction: row;/*layout side by side*/
     gap: 12rem;/*gap bt para and map*/
+  }
+
+  .on-g-map {
+    padding-top: 8rem;
   }
 
   /*FOOTER styles(desktop)*/
