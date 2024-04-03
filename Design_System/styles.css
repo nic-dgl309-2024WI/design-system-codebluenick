@@ -357,54 +357,53 @@ ul, ol {
 .on-c-c-next { right: 1rem; }
 
 /*HOT PICKS CAROUSEL WITH CARDS SECTION styles*/
-.on-hp-container {
-  max-width: 1120px;
-  width: 100%;
-  padding: 40px 0;
-}
-
-.on-slide-content {
-  margin: 0 40px;
-  overflow: hidden;
-  border-radius: 25px;
-}
-
-.on-hp-card{
-  border-radius: 25px;
-  background-color: #FFF;
-}
-
-.on-hp-card-img,
-.on-hp-card-description {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px 14px;
-}
-
-.on-hp-card-img {
+.on-hp-slider {
   position: relative;
-  row-gap: 5px;
-  padding: 25px 0;
+  width: 100%;
+  overflow: hidden;
 }
 
-.swiper-navBtn::before,
-.swiper-navBtn::after{
-  font-size: 35px;
+.on-hp-slide-container {
+  display: flex;
 }
-.swiper-button-next{
-  right: 0;
+
+.on-hp-card {
+  flex: 0 0 33.333%; /* Adjusts the card size to fit 3 in view */
+  box-sizing: borderer-box;
+  padding: 10px;
 }
-.swiper-button-prev{
+
+.slide-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #ddd;
+  border: none;
+  cursor: pointer;
+}
+
+.prev-arrow {
   left: 0;
 }
-.swiper-pagination-bullet{
-  background-color: #6E93f7;
-  opacity: 1;
+
+.next-arrow {
+  right: 0;
 }
-.swiper-pagination-bullet-active{
-  background-color: #4070F4;
+
+.pagination {
+  text-align: center;
 }
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
 
 /*Services offered section styles*/
 .on-services-description {
