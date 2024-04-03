@@ -442,6 +442,7 @@ ul, ol {
   border: 2px solid var(--clr-accent);
   border-radius: 0.6rem;
   padding: 1.2rem;
+  background-color: var(--clr-white);/*white bg for card*/
 }
 
 .on-services-list {
@@ -455,6 +456,7 @@ ul, ol {
   border-radius: 0.6rem; /* Softens the edges of the container */
   padding: 1.2rem; /* Adds space inside the container */
   box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+  background-color: var(--clr-white);/*white bg for card*/
 }
 
 .on-services-list li {
