@@ -138,6 +138,7 @@ ul, ol {
 .l-pt-12 { padding-top: 12rem;}
 .l-pr-1 { padding-right: 1rem; }
 .l-pb-1 { padding-bottom: 1rem; }
+.l-pb-12 { padding-bottom: 12rem; }
 .l-pl-1 { padding-left: 1rem; }
 .l-px-1 { padding-left: 1rem; padding-right: 1rem; } /* Apply 1rem padding to both X-axis sides */
 .l-py-1 { padding-top: 1rem; padding-bottom: 1rem; } /* Apply 1rem padding to both Y-axis sides */
