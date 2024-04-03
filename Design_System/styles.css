@@ -586,10 +586,19 @@ ul, ol {
     text-align: center;
   }
 
+
+  /*Hot Picks card slider styles (desktop)*/
   .on-hp-card img {
     width: 100%; /* Sets the image width to fill the container */
     height: 18rem; /* Sets a fixed height for all images */
     object-fit: cover; /* Ensures the image covers the area without losing its aspect ratio */
+  }
+
+  /*Plan your visit section styles (desktop)*/
+  .on-plan-visit {
+    display: flex;
+    flex-direction: row;/*layout side by side*/
+    gap: 12rem;/*gap bt para and map*/
   }
 
   /*FOOTER styles(desktop)*/
