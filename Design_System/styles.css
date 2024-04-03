@@ -427,6 +427,12 @@ ul, ol {
 
 
 /*Services offered section styles*/
+.on-services-section {
+  background-image: url('/OutbackNursery_Images/leafVector.png');/*adds bg image to services section*/
+  background-size: cover;
+  background-position: center;
+}
+
 .on-services-description {
   grid-column: 1/2;/*occupies the first column*/
   grid-row: 1;/*starts from 1st row*/
