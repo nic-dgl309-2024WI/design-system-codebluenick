@@ -81,7 +81,7 @@
   </ul>
 </nav>
 
-<section class="a-content ds-content l-m l-p" >
+<section class="a-content ds-content l-m l-p container-full-width" >
     <!--Accordion Example-->
     <h2 class="u-ff-heading u-fs-heading u-fw-bold text-accent">Accordion example</h2>
     <div class="on-accordion l-py-4 l-m ">
@@ -102,12 +102,28 @@
         </div>
         <!-- Repeat for more accordion items if needed -->
       </div>
+      <div class="ds-code-snippet-container ds-content">
+        <pre><code>&lt;!-- Accordion Structure --&gt;
+            &lt;div class="on-accordion l-py-4 l-m"&gt;
+              &lt;div class="on-accordion-item"&gt;
+                &lt;button class="on-accordion-button u-ff-heading u-fs-body u-fw-regular l-p" aria-expanded="false"&gt;
+                  Click to expand
+                  &lt;span class="on-accordion-icon"&gt;&amp;#9660;&lt;/span&gt; &lt;!-- Downward arrow --&gt;
+                &lt;/button&gt;
+                &lt;div class="on-accordion-content u-ff-body u-fs-body u-fw-body"&gt;
+                  &lt;p&gt;&lt;strong&gt;Bold Heading&lt;/strong&gt;&lt;/p&gt;
+                  &lt;ol&gt;
+                    &lt;li&gt;List item 1&lt;/li&gt;
+                    &lt;li&gt;List item 2&lt;/li&gt;
+                    &lt;li&gt;List item 3&lt;/li&gt;
+                  &lt;/ol&gt;
+                  &lt;p&gt;End content&lt;/p&gt;
+                &lt;/div&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;</code></pre>
+            
+        <button class="ds-copy-btn" aria-label="Copy to clipboard" onclick="copyToClipboard(this)">Copy</button>
+    </div>
 </section>
-
-<div class="ds-code-snippet-container">
-    <pre><code class="language-html">/* Your code snippet here */</code></pre>
-    <button class="ds-copy-btn" aria-label="Copy to clipboard" onclick="copyToClipboard(this)">Copy</button>
-</div>
-
   </body>
 </html>
