@@ -373,6 +373,12 @@ ul, ol {
   padding: 10px;
 }
 
+.on-hp-card img {
+  height: 18rem; /* Sets a fixed height for all images */
+  object-fit: cover; /* Ensures the image covers the area without losing its aspect ratio */
+  border-radius: 8px; /* Adds rounded corners to the images */
+}
+
 .slide-arrow {
   position: absolute;
   top: 50%;
@@ -430,17 +436,9 @@ ul, ol {
   box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow for depth */
 }
 
-
-
 .on-services-list li {
-  background-image: url('path-to-your-icon.svg'); /* Icon for list items, replace with your path */
-  background-repeat: no-repeat;
-  background-size: 16px 16px; /* Adjust based on the size of your icons */
-  background-position: 0 50%;
-  padding-left: 24px; /* Space for the icon */
+  /* padding-left: 24px; Space for the icon */
   margin-bottom: 8px; /* Space between list items */
-  color: #666; /* Slightly lighter text color for the list items */
-  font-size: 16px; /* Adjust based on your design */
 }
 
 
@@ -572,6 +570,12 @@ ul, ol {
   .on-carousel-slide {
     flex: 0 0 100% ;/*each slide will take full width of the container but doesn't grow or shrink*/
     text-align: center;
+  }
+
+  .on-hp-card img {
+    width: 100%; /* Sets the image width to fill the container */
+    height: 18rem; /* Sets a fixed height for all images */
+    object-fit: cover; /* Ensures the image covers the area without losing its aspect ratio */
   }
 
   /*FOOTER styles(desktop)*/
