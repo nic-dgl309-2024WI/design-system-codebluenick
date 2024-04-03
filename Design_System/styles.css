@@ -635,9 +635,9 @@ ul, ol {
     padding-top: 8rem;
   }
 
+
   /*FOOTER styles(desktop)*/
   .on-footer {
-    margin-top: 26rem;/*add space between footer and above content*/
     padding: 4rem;/*add padding to the footer content*/
   }
   .on-footer-content {/*responsiveness for footer*/
