@@ -290,6 +290,7 @@ ul, ol {
 
 .on-sidenav-links a {
   text-decoration: none;
+  color: var(--clr-primary-text);
 }
 
 /*HERO SECTION STYLES (Welcome message)*/
