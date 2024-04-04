@@ -3,31 +3,66 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Colors</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <script src="design-system.js"></script>
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="Design_System/styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="Design_System/design-system.js"></script>
+    
   </head>
-  <body class="ds-body l-p l-justify-center l-align-center">
+  <body class="ds-body container-full-width l-p l-justify-center l-align-center">
     
     <!--Top Navbar-->
-    <header class="on-top-navbar l-flex l-align-center l-justify-between">
-      <a class="on-logo">Outback Nursery</a><!--Add Logo for Outback Nursery-->
-      
-      <!--Top Navbar List-->
-      <ul class="on-top-nav">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="coming-soon.html">About Us</a></li>
-          <li><a href="coming-soon.html">Products</a></li>
-          <li><a href="coming-soon.html">Contact</a></li>
-      </ul>
+    <section class="on-top-navbar l-flex l-align-center l-justify-between">
+        <a class="on-logo l-flex l-align-center l-gap-1 u-ff-heading u-fs-body u-fw-regular" href="index.html">Outback Nursery</a><!--Add Logo for Outback Nursery-->
+        
+        <!--Top Navbar List-->
+        <ul class="on-top-nav-list u-ff-heading u-fs-body u-fw-bold l-flex l-gap-1">
+            <li><a href="coming-soon.html">About Us</a></li>
+            <li><a href="coming-soon.html">Products</a></li>
+            <li><a href="coming-soon.html">Contact</a></li>
+            <li><a href="coming-soon.html">FAQ</a></li>
+        </ul>
 
-      <!--Social Media Link (facebook page)-->
-      <div class="on-s-link-nav">
-          <!-- <img src="images/" alt="facebook_logo"> -->
-          <a href="#facebook_link">Join us on Facebook!</a>
+        <!--Social Media Link (facebook page)-->
+        <div class="on-topnav-s-link u-ff-heading u-fs-body u-fw-body">
+            <!-- <img src="images/" alt="facebook_logo"> -->
+            <a href="#facebook_link">Join us on Facebook!<i class="on-s-icon l-p bx bxl-facebook-circle"></i></a>
+            <!-- <i class="on-s-icon bx bxl-facebook-circle"></i> -->
+        </div>
+    </section>
+
+    <!--Mobile Navbar-->
+    <nav class="on-mobile-navbar l-flex u-ff-body u-fs-body u-fw-bold">
+        <a class="on-logo l-flex l-align-center l-p l-gap-1 u-ff-heading u-fs-body u-fw-regular">Outback Nursery</a><!--Add Logo for Outback Nursery-->
+        <ul>
+          <li>
+            <span id="on-navbar-open" onclick="toggleNavbar(true)">
+              <i class="bx bx-menu"></i>
+            </span>
+            <span id="on-navbar-close" onclick="toggleNavbar(false)">
+              <i class="bx bx-x"></i>
+            </span>
+          </li>
+        </ul>
+      </nav>
+
+    <!--Side Navbar for mobile (intially hidden)-->
+    <aside class="on-mobile-sidenav u-ff-heading u-fs-body u-fw-regular" id="on-side-navbar">
+        <ul class="l-flex l-flex-column">
+            <li class="on-sidenav-links l-p"><i class="bx bx-home-circle l-mr-1" ></i><a href="index.html">Home</a></li>
+            <li class="on-sidenav-links l-p"><i class="bx bx-message-add l-mr-1" ></i><a href="coming-soon.html">About Us</a></li>
+            <li class="on-sidenav-links l-p"><i class="bx bxs-tree-alt l-mr-1" ></i><a href="coming-soon.html">Products</a></li>
+            <li class="on-sidenav-links l-p"><i class="bx bx-book-content l-mr-1" ></i><a href="coming-soon.html">Contact</a></li>
+            <li class="on-sidenav-links l-p"><a href="#facebook_link">Join us on Facebook!<i class="on-s-icon bx bxl-facebook-circle l-ml-1"></i></a></li>
+        </ul>
+    </aside>
+
+    <!--Coming soon message section (Hero)-->
+    <section class="on-hero-section l-flex l-justify-center l-align-center">
+      <div class="on-hero-content">
+        <h1 class="u-ff-heading u-fs-heading u-fw-bold">Coming soon!!!</h1>
       </div>
-  </header>
-
-    <h2>Coming Soon !!!</h2>
+    </section>
   </body>
 </html>
