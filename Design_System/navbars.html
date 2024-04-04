@@ -58,7 +58,7 @@
         </ul>
         <h2>Components</h2>
         <ul>
-            <li><a href="cards.html">16 Cards</a></li>
+            <li><a href="">16 Cards</a></li>
             <li><a href="#forms">17 Forms</a></li>
             <li><a href="accordion.html">18 Accordion</a></li>
             <li><a href="#lists">19 Lists</a></li>
@@ -81,23 +81,67 @@
   </ul>
 </nav>
 
-<div class="n-top-navbar  l-flex l-align-center l-justify-between ds-content l-mt-14">
-    <h2 class="u-ff-heading u-fs-heading u-fw-bold text-accent l-pb-1-25">Top navbar example</h2>
-    <a class="on-logo l-flex l-align-center l-gap-1 u-ff-heading u-fs-body u-fw-regular">Outback Nursery</a><!--Add Logo for Outback Nursery-->
-    
-    <!--Top Navbar List-->
-    <ul class="on-top-nav-list u-ff-heading u-fs-body u-fw-bold l-flex l-gap-1">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="coming-soon.html">About Us</a></li>
-        <li><a href="coming-soon.html">Products</a></li>
-        <li><a href="coming-soon.html">Contact</a></li>
-    </ul>
-
-    <!--Social Media Link (facebook page)-->
-    <div class="on-topnav-s-link u-ff-heading u-fs-body u-fw-body">
-        <!-- <img src="images/" alt="facebook_logo"> -->
-        <a href="#facebook_link">Join us on Facebook!</a>
+<section class="n-content ds-content l-m l-p container-full-width" >
+  <!--Top navbar (ON) (desktop view only) section-->
+  <h2 class="u-ff-heading u-fs-heading u-fw-bold text-accent l-pb-1-25">Top navbar (desktop)</h2>
+  <div class="n-top-navbar  l-flex l-align-center l-justify-between ds-content l-mt-1">
+    <section class="n-top-navbar l-flex l-align-center l-justify-between">
+      <a class="on-logo l-flex l-align-center l-gap-1 u-ff-heading u-fs-body u-fw-regular">Outback Nursery</a><!--Add Logo for Outback Nursery-->
+      
+      <!--Top Navbar List-->
+      <ul class="n-top-nav-list u-ff-heading u-fs-body u-fw-bold l-flex l-gap-1 l-justify-center l-align-center container-full-width">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="coming-soon.html">About Us</a></li>
+          <li><a href="coming-soon.html">Products</a></li>
+          <li><a href="coming-soon.html">Contact</a></li>
+      </ul>
+  
+      <!--Social Media Link (facebook page)-->
+      <div class="n-topnav-s-link u-ff-heading u-fs-body u-fw-body">
+          <!-- <img src="images/" alt="facebook_logo"> -->
+          <a href="#facebook_link">Join us on Facebook!</a>
+      </div>
+  </section>
     </div>
+    
+    <div class="ds-code-snippet-container ds-content">
+      <pre><code>&lt;div class="n-top-navbar  l-flex l-align-center l-justify-between ds-content l-mt-14"&gt;
+        &lt;section class="n-top-navbar l-flex l-align-center l-justify-between"&gt;
+          &lt;a class="on-logo l-flex l-align-center l-gap-1 u-ff-heading u-fs-body u-fw-regular"&gt;Outback Nursery&lt;/a&gt;&lt;!--Add Logo for Outback Nursery--&gt;
+          
+          &lt;!--Top Navbar List--&gt;
+          &lt;ul class="n-top-nav-list u-ff-heading u-fs-body u-fw-bold l-flex l-gap-1 l-justify-center l-align-center container-full-width"&gt;
+              &lt;li&gt;&lt;a href="index.html"&gt;Home&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="coming-soon.html"&gt;About Us&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="coming-soon.html"&gt;Products&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href="coming-soon.html"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+      
+          &lt;!--Social Media Link (facebook page)--&gt;
+          &lt;div class="n-topnav-s-link u-ff-heading u-fs-body u-fw-body"&gt;
+              &lt;!-- &lt;img src="images/" alt="facebook_logo"&gt; --&gt;
+              &lt;a href="#facebook_link"&gt;Join us on Facebook!&lt;/a&gt;
+          &lt;/div&gt;
+      &lt;/section&gt;</code></pre>
+    
+        
+          
+          
+      <button class="ds-copy-btn" aria-label="Copy to clipboard" onclick="copyToClipboard(this)">Copy</button>
   </div>
+
+  <h2 class="u-ff-heading u-fs-heading u-fw-bold text-accent l-pb-1-25 l-py-4">Side navbar (mobile)</h2>
+  <aside class="n-mobile-sidenav u-ff-heading u-fs-body u-fw-regular l-mt-1" id="on-side-navbar">
+    <ul class="l-flex l-flex-column">
+        <li class="on-sidenav-links l-p"><a href="index.html">Home</a></li>
+        <li class="on-sidenav-links l-p"><a href="coming-soon.html">About Us</a></li>
+        <li class="on-sidenav-links l-p"><a href="coming-soon.html">Products</a></li>
+        <li class="on-sidenav-links l-p"><a href="coming-soon.html">Contact</a></li>
+        <li class="on-sidenav-links l-p"><a class="on-sidenav-s-link" href="#facebook_link">Join us on Facebook!</a></li>
+    </ul>
+</aside>
+</section>
+
+
   </body>
 </html>

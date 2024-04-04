@@ -285,21 +285,21 @@ nav ul {
   }
 
 /*NAVBAR PAGE STYLES*/
-.on-top-navbar {
-    display: none;/*Hide topnav on mobile view*/
-    position: fixed;/*fixed position for top nav*/
-    background-color: var(--clr-accent);
+.n-top-navbar {
+    background-color: var(--clr-accent-dark);
+    padding: 0.4rem;
+    width: 100%;
   }
   
   /*Add color and padding to top-nav anchors*/
-  .on-top-navbar a {
+  .n-top-navbar a {
     color: var(--clr-primary-text);
     padding: 0.5rem 1rem;
     text-decoration: none;/*remove underline*/
   }
   
   /*Change color and add transition on top nav a hover*/
-  .on-top-navbar a:hover {
+  .n-top-navbar a:hover {
     background: var(--clr-accent);
     border-radius: 6rem;
     color: var(--clr-accent-light);
