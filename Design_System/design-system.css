@@ -312,14 +312,8 @@ nav ul {
     position: relative;
     background-color: #f9f9f9;
     border: 1px solid #ddd;
-    margin-top: 8rem;
-    padding: 1rem;
     overflow: auto;
     font-family: monospace;
-  }
-  
-  pre {
-    margin: 0;
   }
   
   .ds-copy-btn {
