@@ -430,4 +430,10 @@ nav ul {
         justify-content: center;
         align-items: start;
     }
+
+    /*Colors Page styles*/
+    .color-swatches {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.4rem;
+    }
 }
