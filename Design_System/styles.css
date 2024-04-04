@@ -310,13 +310,17 @@ ul, ol {
 
 /*styles for social link btn on hero section*/
 .on-s-link-btn {
-  background-color: #4267B2; /* Facebook blue */
+  background-color: var(--clr-accent); 
   color: var(--clr-white);
   border-radius: 6px;
   padding: 0.8rem 1rem;
   width: 80%;
   margin: auto;
 }
+.on-s-link-btn:hover {
+  opacity: 0.8; /* Reduce opacity slightly on hover */
+}
+
 
 
 /*Banner image container styles*/
