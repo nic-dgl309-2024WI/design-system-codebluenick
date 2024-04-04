@@ -364,7 +364,7 @@ nav ul {
 .ds-code-snippet-container {
     position: relative;
     background-color: #f9f9f9;
-    border: 1px solid #ddd;
+    border: 1px solid var(--clr-accent);
     overflow: auto;
     font-family: monospace;
   }
