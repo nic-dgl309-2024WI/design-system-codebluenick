@@ -304,8 +304,53 @@ nav ul {
     border-radius: 6rem;
     color: var(--clr-accent-light);
     transition: background 0.5s;
+ }
+ 
+ /*CAROUSEL PAGE STYLES*/
+/*Carousel on Card section styles for a little something about the nursery*/
+.on-carousel-card {
+    position: relative;
+    /* width: 90%; */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    border: 2px solid var(--clr-accent);
   }
   
+  .on-carousel-card-head {
+    text-align: center;
+  }
+  
+  .on-carousel-content {
+    overflow: hidden;
+  }
+  
+  .on-carousel-slide {
+    display: none;
+    flex: 0 0 100% ;/*each slide will take full width of the container but doesn't grow or shrink*/
+    text-align: center;
+  }
+  
+  .on-carousel-btn {
+    width: 100%;
+    background-color: var(--clr-accent);/*button clr*/
+    color: var(--clr-white);/*white txt clr*/
+    border-radius: 6rem;/*rounded corners for btn*/
+    text-align: center;
+    text-decoration: none;
+    order: 2;/*ensure btn stays at the bottom*/
+  }
+  
+  .on-c-c-prev, .on-c-c-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ddd;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+  }
+  
+  .on-c-c-prev { left: 1rem; }
+  .on-c-c-next { right: 1rem; }
 
 /*STYLES FOR CODE SNIPPET CONTAINER*/
 .ds-code-snippet-container {
