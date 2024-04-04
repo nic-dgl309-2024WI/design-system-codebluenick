@@ -3,10 +3,10 @@ document.addEventListener('DOMContentLoaded', function() {
   initializeNavbar(); // Initialize navbar toggle functionality
   initializeActiveLinkHighlighting(); // Highlight the active link based on current URL
   initializeMobileSidebarToggle(); // Toggle sidebar for mobile screens
-  copyToClipboard();
   initializeAboutCarousel(); // Initialize carousel in the about section
   initializeAccordion(); // Initialize accordion functionality
   initializeCardSlider(); // Initialize card slider functionality
+  copyToClipboard();
 });
 
 // Function to toggle the visibility of the navbar
