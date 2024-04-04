@@ -352,6 +352,14 @@ nav ul {
   .on-c-c-prev { left: 1rem; }
   .on-c-c-next { right: 1rem; }
 
+/*STYLES FOR CARDS PAGE*/
+.on-services-description {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+
 /*STYLES FOR CODE SNIPPET CONTAINER*/
 .ds-code-snippet-container {
     position: relative;
