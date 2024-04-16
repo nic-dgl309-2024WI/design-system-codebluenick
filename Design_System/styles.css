@@ -196,7 +196,11 @@ ul, ol {
   margin: 0 auto; /* Centers the container */
 }
 
-
+.wrapper-container {/* Wrapper class to centerize and fix width of content */
+  margin: 0 auto; /* Centers the content */
+  padding: 0 2.2rem; /* Adds padding to the sides for smaller screens */
+  max-width: 75rem; /* Maximum width of the content, 1rem = 16px, this is 1200px */
+}
 
 /**************************************/
 /******STYLES FOR OUTBACK NURSERY******/
@@ -578,6 +582,11 @@ ul, ol {
 
 /*Media query for larger screens*/
 @media (min-width: 768px) {
+  /*increase padding for the wrapper for desktop*/
+  .wrapper {
+    padding: 0 4rem;
+  }
+
   /*TOP NAVBAR styles(desktop)*/
   .on-top-navbar {
     display: flex;
