@@ -91,6 +91,7 @@ ul, ol {
 /*Line height utility class*/
 .u-lh-1 { line-height: 1; }
 .u-lh-15 { line-height: 1.5;}
+.u-lh-2 { line-height: 2; }
 
 /*Letter spacing utility class*/
 .u-ls-1 { letter-spacing: 1px; }
