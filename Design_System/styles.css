@@ -372,6 +372,21 @@ ul, ol {
   text-align: center;
 }
 
+/* Carousel Card Default & Transition */
+.on-carousel-card {
+  border: 0.1rem solid var(--clr-secondary-bg); /* Light border for definition */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  border-radius: 0.6rem; /* Rounded corners for a softer look */
+  overflow: hidden; /* Ensures content fits neatly inside the borders */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.on-carousel-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);/*increase in box shadow for depth effect*/
+}
+
+
 .on-carousel-btn {
   width: 100%;
   background-color: var(--clr-accent);/*button clr*/
