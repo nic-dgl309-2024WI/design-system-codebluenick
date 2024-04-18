@@ -654,10 +654,15 @@ ul, ol {
     gap: 12rem;/*gap bt para and map*/
   }
 
+  /*adjust the map for desktop*/
   .on-g-map {
     padding-top: 8rem;
   }
 
+  /*TESTIMONIALS styles(desktop)*/
+  .on-testimonial-item {
+    max-width: 75rem;
+  }
 
   /*FOOTER styles(desktop)*/
   .on-footer {
