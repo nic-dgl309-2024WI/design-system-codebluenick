@@ -373,6 +373,12 @@ ul, ol {
   text-align: center;
   text-decoration: none;
   order: 2;/*ensure btn stays at the bottom*/
+  transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
+}
+
+.on-carousel-btn:hover {
+  opacity: 0.8; /* Reduce opacity slightly on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .on-c-c-prev, .on-c-c-next {
