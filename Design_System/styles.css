@@ -624,6 +624,11 @@ ul, ol {
   text-align: center;/*align text to center*/
 }
 
+.on-f-details {
+  text-decoration: none;
+  color: var(--clr-white);
+}
+
 /*styles for footer links*/
 .on-f-nav-links {
   color: var(--clr-accent-dark);/*light lavender for nav links*/
