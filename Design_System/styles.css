@@ -622,19 +622,12 @@ ul, ol {
 
   /*Carousel Card styles(desktop)*/
   .on-carousel-card-section {
-    padding-top: 20rem;/*add space between the content above*/
+    /*add space between the content above*/
     max-width: 200rem;
   }
   .on-carousel-card {
     width: 80rem; /* Or whatever fixed width is suitable */
     max-width: 100%; /* Prevents overflow on smaller screens */
-  }
-
-  .on-carousel-card-head {
-    padding-top: 26rem;
-  }
-  .on-carousel-card-section{
-    padding: 4rem;
   }
 
   .on-carousel-content, .on-carousel-slide {
