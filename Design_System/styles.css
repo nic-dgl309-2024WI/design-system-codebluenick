@@ -39,6 +39,7 @@ ul, ol {
     --font-size-body: 16px;
     --font-size-heading: 32px;
     --font-size-button: 14px;
+    --font-size-icon: 24px;
     /*Font weights*/
     --font-weight-bold: 700;/*Bold*/
     --font-weight-regular: 400;/*Regular*/
@@ -82,6 +83,7 @@ ul, ol {
 .u-fs-body { font-size: var(--font-size-body); }
 .u-fs-heading { font-size: var(--font-size-heading); }
 .u-fs-button { font-size: var(--font-size-button); }
+.u-fs-icon { font-size: var(--font-size-icon); }
 
 /*Font weight utility class*/
 .u-fw-bold { font-weight: var(--font-weight-bold); }
