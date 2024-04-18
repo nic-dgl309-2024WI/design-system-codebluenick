@@ -684,7 +684,7 @@ ul, ol {
     right: 0;
     z-index: 1000;
     background: var(--clr-accent-dark);
-    box-shadow: 0 18px 11px rgb(15 55 54 / 15%);
+    box-shadow: 0 18px 11px rgb(15 55 54 / 10%);
     padding: 0.8rem ;
     transition: 0.5s;
   }
