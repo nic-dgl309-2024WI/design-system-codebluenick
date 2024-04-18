@@ -390,14 +390,28 @@ ul, ol {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: #ddd;
-  border: none;
-  padding: 1rem;
+  background-color: var(--clr-white); /* White background for a clean look */
+  color: var(--clr-accent); /* Dark text/icon color for contrast */
+  border: 1px solid var(--clr-accent); /* Light border for definition */
+  border-radius: 50%; /* Circular shape */
+  padding: 0.8rem;
   cursor: pointer;
+  width: 2.8rem; /* Fixed width for a balanced appearance */
+  height: 2.8rem; /* Fixed height to maintain circle shape */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Soft shadow for depth */
+  transition: all 0.3s ease; /* Smooth transition for interactions */
 }
 
-.on-c-c-prev { left: 1rem; }
-.on-c-c-next { right: 1rem; }
+.on-c-c-prev:hover, .on-c-c-next:hover {/*reduces opacity on hover*/
+  opacity: 0.4;
+}
+
+.on-c-c-prev { left: 10px; } /* Adjust for spacing from the edge */
+.on-c-c-next { right: 10px; } /* Adjust for spacing from the edge */
+
 
 /*HOT PICKS CAROUSEL WITH CARDS SECTION styles*/
 .on-hp-slider {
@@ -420,6 +434,7 @@ ul, ol {
   height: 18rem; /* Sets a fixed height for all images */
   object-fit: cover; /* Ensures the image covers the area without losing its aspect ratio */
   border-radius: 8px; /* Adds rounded corners to the images */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /*add a subtle shadow*/
 }
 
 .slide-arrow {
