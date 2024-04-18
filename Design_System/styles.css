@@ -256,7 +256,7 @@ ul, ol {
 /*SIDE NAVBAR styles (only for mobile view)*/
 .on-mobile-sidenav {
   position: fixed;
-  top: 2rem; /* Adjusted to the height of the mobile navbar */
+  top: 3.2rem; /* Adjusted to the height of the mobile navbar */
   right: 0; /* Align to the right side */
   width: 250px; /* Fixed width for sidenav */
   height: calc(100vh - 50px); /* Full height minus top nav */
@@ -444,10 +444,32 @@ ul, ol {
 
 
 /*Services offered section styles*/
-.on-services-section {
+/* .on-services-section {
   background-image: url('/OutbackNursery_Images/leafVector.png');/*adds bg image to services section*/
+  /*background-size: cover;
+  background-position: center;
+} */
+.on-services-section {
+  position: relative; /* Needed for absolute positioning of the pseudo-element */
+  background: none; /* Remove the background image from the section itself */
+}
+.on-services-section::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%; /* Adjusted based on the section's wrapper padding */
+  height: 100%; /* Adjusted based on the section's wrapperpadding */
+  background-image: url('/OutbackNursery_Images/leafVector.png'); /* Background image */
   background-size: cover;
   background-position: center;
+  opacity: 0; /* Start with the pseudo-element invisible */
+  transition: opacity 1s ease-in-out; /* Adjust duration and timing function as needed */
+  z-index: -1; /* Ensure it's under the content */
+}
+
+.on-services-section:hover::after {
+  opacity: 1; /* Fully show the background on hover */
 }
 
 .on-services-description {
@@ -645,6 +667,30 @@ ul, ol {
     width: 100%; /* Sets the image width to fill the container */
     height: 18rem; /* Sets a fixed height for all images */
     object-fit: cover; /* Ensures the image covers the area without losing its aspect ratio */
+  }
+
+  /*SERVICES section styles (desktop)*/
+  .on-services-section {
+    position: relative; /* Needed for absolute positioning of the pseudo-element */
+    background: none; /* Remove the background image from the section itself */
+  }
+  .on-services-section::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% + 12rem); /* Adjusted based on the section's wrapper padding */
+    height: calc(100% + 8rem); /* Adjusted based on the section's wrapperpadding */
+    background-image: url('/OutbackNursery_Images/leafVector.png'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    opacity: 0; /* Start with the pseudo-element invisible */
+    transition: opacity 1s ease-in-out; /* Adjust duration and timing function as needed */
+    z-index: -1; /* Ensure it's under the content */
+  }
+  
+  .on-services-section:hover::after {
+    opacity: 1; /* Fully show the background on hover */
   }
 
   /*Plan your visit section styles (desktop)*/
