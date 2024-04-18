@@ -239,7 +239,7 @@ ul, ol {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--clr-white);/*white bg for mobile navbar*/
+  background-color: var(--clr-accent-dark);/*darker shade of purple bg for mobile navbar*/
   z-index: 1000;/*ensure that the mobile nav is on top layer*/
 }
 
