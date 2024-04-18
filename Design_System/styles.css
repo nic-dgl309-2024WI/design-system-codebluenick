@@ -600,7 +600,7 @@ ul, ol {
   text-decoration: underline;/*adds underline*/
 }
 
-.on-f-s-links {
+.on-f-s-links, .on-f-s-links a {
   color: var(--clr-accent-dark);/*light lavender for nav links*/
   text-decoration: none;/*remove underlines*/
   transition: color 0.3s ease;/*smooth transition for hover effect*/
