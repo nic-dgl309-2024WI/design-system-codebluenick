@@ -157,4 +157,73 @@ function initializeCardSlider() {
       showSlides(slideIndex);
   });
 }
+//For pagination
+function initializeCardSlider() {
+  let slideIndex = 1;
+  showSlides(slideIndex);
+  createPaginationDots();
 
+  document.querySelector('.prev-arrow').addEventListener('click', function() {
+    plusSlides(-1);
+  });
+
+  document.querySelector('.next-arrow').addEventListener('click', function() {
+    plusSlides(1);
+  });
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+    updateActiveDot(slideIndex);
+  }
+
+  function showSlides(n) {
+    let slides = document.getElementsByClassName("on-hp-card");
+    const cardsToShow = window.innerWidth >= 768 ? 3 : 1; // Adjust based on your responsive design
+    let totalSets = Math.ceil(slides.length / cardsToShow);
+
+    if (n > totalSets) slideIndex = 1;
+    if (n < 1) slideIndex = totalSets;
+
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+    }
+
+    let start = (slideIndex - 1) * cardsToShow;
+    let end = start + cardsToShow;
+    for (let i = start; i < end && i < slides.length; i++) {
+      slides[i].style.display = "block";  
+    }
+  }
+
+  function createPaginationDots() {
+    let slides = document.getElementsByClassName("on-hp-card");
+    const cardsToShow = window.innerWidth >= 768 ? 3 : 1;
+    let totalDots = Math.ceil(slides.length / cardsToShow);
+    let paginationContainer = document.querySelector('.pagination');
+    paginationContainer.innerHTML = ''; // Clear existing dots
+
+    for (let i = 1; i <= totalDots; i++) {
+      let dot = document.createElement('span');
+      dot.classList.add('dot');
+      if(i === slideIndex) dot.classList.add('active');
+      dot.addEventListener('click', (function(index) {
+        return function() {
+          showSlides(slideIndex = index);
+          updateActiveDot(index);
+        }
+      })(i));
+      paginationContainer.appendChild(dot);
+    }
+  }
+
+  function updateActiveDot(index) {
+    let dots = document.querySelectorAll('.dot');
+    dots.forEach(dot => dot.classList.remove('active'));
+    if (dots[index - 1]) {
+      dots[index - 1].classList.add('active');
+    }
+  }
+}
+
+// Call initialize function when the document is ready
+document.addEventListener('DOMContentLoaded', initializeCardSlider);

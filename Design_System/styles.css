@@ -487,16 +487,28 @@ ul, ol {
 
 .pagination {
   text-align: center;
+  padding: 20px 0; /* Add some vertical padding for space around dots */
 }
 
 .dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
+  margin: 0 5px; /* Increase margin for better clickability */
+  background-color: var(--clr-secondary-bg); /* Neutral color for inactive state */
   border-radius: 50%;
   display: inline-block;
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover and active effects */
+}
+
+.dot:hover {
+  background-color: var(--clr-accent); /* Darker shade on hover for visual feedback */
+  transform: scale(1.25); /* Slightly increase size on hover */
+}
+
+.dot.active {
+  background-color: var(--clr-accent); /* Use the accent color for active state */
+  transform: scale(1.5); /* Make the active dot larger */
 }
 
 
