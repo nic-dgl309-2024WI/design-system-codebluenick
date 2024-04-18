@@ -682,6 +682,12 @@ ul, ol {
 
 /*Media query for larger screens*/
 @media (min-width: 768px) {
+  /*Bigger font sizes for desktop*/
+  :root {
+    --font-size-body: 18px;/*increase body font size*/
+    --font-size-heading: 38px;/*increase heading size*/
+  }
+
   /*increase padding for the wrapper for desktop*/
   .wrapper {
     padding: 0 4rem;
