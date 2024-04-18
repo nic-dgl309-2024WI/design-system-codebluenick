@@ -444,7 +444,7 @@ ul, ol {
 .on-hp-card {
   flex: 0 0 33.333%; /* Adjusts the card size to fit 3 in view */
   box-sizing: border-box;
-  padding: 10px;
+  padding: 1rem;
 }
 
 .on-hp-card img {
@@ -571,7 +571,7 @@ ul, ol {
   text-align: center;
   border: none;
   outline: none;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid var(--clr-white);
   transition: background-color 0.3s ease;
 }
 
@@ -593,7 +593,9 @@ ul, ol {
 }
 
 .on-accordion-content {
-  background-color: #f8f9fa;
+  background-color: var(--clr-white);
+  border: 0.1rem solid var(--clr-accent);/* adds a thin border to the accordion content*/
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Subtle shadow for depth */
   overflow: hidden;
   transition: max-height 0.2s ease-out, padding 0.2s ease-out;
   max-height: 0;
