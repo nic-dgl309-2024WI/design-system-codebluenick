@@ -261,7 +261,7 @@ ul, ol {
 /*SIDE NAVBAR styles (only for mobile view)*/
 .on-mobile-sidenav {
   position: fixed;
-  top: 3.2rem; /* Adjusted to the height of the mobile navbar */
+  top: 3rem; /* Adjusted to the height of the mobile navbar */
   right: 0; /* Align to the right side */
   width: 250px; /* Fixed width for sidenav */
   height: calc(100vh - 50px); /* Full height minus top nav */
