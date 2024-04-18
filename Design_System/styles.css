@@ -663,6 +663,7 @@ ul, ol {
   color: var(--clr-accent-dark);/*light lavender for nav links*/
   text-decoration: none;/*remove underlines*/
   transition: color 0.3s ease;/*smooth transition for hover effect*/
+  overflow-x: hidden;
 }
 
 .on-f-nav-links:hover, .on-f-nav-links:focus {
