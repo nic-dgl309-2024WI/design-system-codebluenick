@@ -412,7 +412,7 @@ ul, ol {
 
 .on-hp-card {
   flex: 0 0 33.333%; /* Adjusts the card size to fit 3 in view */
-  box-sizing: borderer-box;
+  box-sizing: border-box;
   padding: 10px;
 }
 
