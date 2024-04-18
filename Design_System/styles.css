@@ -661,6 +661,11 @@ ul, ol {
     text-align: center;
   }
 
+  .on-carousel-btn {
+    width: 50%;/*smaller size on desktop*/
+    margin: 0 auto;/*center the button*/
+  }
+
 
   /*Hot Picks card slider styles (desktop)*/
   .on-hp-card img {
