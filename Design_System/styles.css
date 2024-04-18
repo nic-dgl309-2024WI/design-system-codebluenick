@@ -441,9 +441,23 @@ ul, ol {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: #ddd;
-  border: none;
+  background-color: var(--clr-white); /* White background for a clean look */
+  color: var(--clr-accent); /* Dark text/icon color for contrast */
+  border: 1px solid var(--clr-accent); /* Light border for definition */
+  border-radius: 50%; /* Circular shape */
+  padding: 0.8rem;
   cursor: pointer;
+  width: 2.8rem; /* Fixed width for a balanced appearance */
+  height: 2.8rem; /* Fixed height to maintain circle shape */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Soft shadow for depth */
+  transition: all 0.3s ease; /* Smooth transition for interactions */
+}
+
+.slide-arrow:hover {
+  opacity: 0.4;
 }
 
 .prev-arrow {
