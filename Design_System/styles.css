@@ -608,6 +608,18 @@ ul, ol {
     display: none;
   }
 
+  /*Banner image container styles (desktop)*/
+  .on-banner-container {
+  width: 100%;
+  padding-top: 25%;
+  position: relative;
+  }
+
+.on-banner-container img { 
+  height: 100%;
+  object-fit: cover;
+  }
+
   /*Carousel Card styles(desktop)*/
   .on-carousel-card-section {
     padding-top: 20rem;/*add space between the content above*/
