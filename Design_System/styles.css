@@ -243,6 +243,11 @@ ul, ol {
   z-index: 1000;/*ensure that the mobile nav is on top layer*/
 }
 
+.on-logo {
+  text-decoration: none;/*remove underline*/
+}
+
+
 /*Side navbar styles(only for mobile view)*/
 /*.on-mobile-sidenav {
   position: fixed;
