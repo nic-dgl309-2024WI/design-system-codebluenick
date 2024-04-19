@@ -74,6 +74,7 @@ ul, ol {
 /*White color utility class*/
 .text-white { color: var(--clr-white); }
 .bg-white { background-color: var(--clr-white); }
+.bg-highlight { background-color: var(--clr-highlight); }
 
 /*FONT utility classes*/
 /*Font family utility class*/
