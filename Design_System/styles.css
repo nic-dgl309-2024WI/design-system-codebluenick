@@ -306,6 +306,33 @@ ul, ol {
   color: var(--clr-primary-text);
 }
 
+/*BREADCRUMBS STYLES (across all sections)*/
+.breadcrumbs {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.breadcrumbs li {
+  display: inline;
+  font-size: 0.875em;
+}
+
+.breadcrumbs li a {
+  color: var(--clr-accent);
+  text-decoration: none;
+}
+
+.breadcrumbs li::after {
+  content: "›";
+  margin: 0 5px;
+  color: var(--clr-secondary-text);
+}
+
+.breadcrumbs li:last-child::after {
+  content: none;
+}
+
 /*HERO SECTION STYLES (Welcome message)*/
 .on-hero-section {
   height: 100vh;
@@ -485,6 +512,7 @@ ul, ol {
   right: 0;
 }
 
+/*PAGINATION styles*/
 .pagination {
   text-align: center;
   padding: 20px 0; /* Add some vertical padding for space around dots */
