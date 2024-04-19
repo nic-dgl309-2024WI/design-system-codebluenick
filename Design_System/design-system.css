@@ -129,6 +129,14 @@ nav ul {
 }
 
 
+/*ABOUT ME PAGE STYLES*/
+.c-myimg {
+    width: 20rem; 
+    height: 20rem;
+    overflow-x: hidden;
+    /* border-radius: 10rem; to make the image circular*/
+}
+
 /*COLORS PAGE STYLES*/
 /*Styles for the color swatches*/
 .swatch {
