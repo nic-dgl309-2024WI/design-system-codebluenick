@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="design-system.css" />
+    <script src="design-system.js"></script>
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  </head>
+  <body class="ds-body l-p l-justify-center l-align-center">
+
+    <!--Top navbar-->
+    <nav class="top-navbar u-ff-body u-fs-body u-fw-bold l-flex l-justify-between">
+      <a href="design-system.html" class="logo">Design System</a>
+      <div class="nav__links"></div>
+      <a class="top-navbar__links" href="about-me.html">About Me</a>
+      <a class="top-navbar__links" href="/index.html">Demo Site</a>
+    </nav>
+
+    <!--Side navbar/ main directory-->
+    <aside class=" ds-side-nav side-navbar u-ff-body u-fs-body u-fw-body" id="ds-side-navbar">
+      <nav>
+        <div class="side-nav__links u-ff-body u-fs-body u-fw-bold">
+            <a href="about-me.html">About Me</a>
+            <a href="/index.html">Demo Site</a>
+          </div>
+        <h2>Branding</h2>
+        <ul>
+            <li><a href="colors.html">01 Colors</a></li>
+            <li><a href="typography.html">02 Typography</a></li>
+            <li><a href="#logo">03 Logo</a></li>
+        </ul>
+        <h2>Utilities</h2>
+        <ul>
+            <li><a href="spacing.html">04 Spacing</a></li>
+            <li><a href="containers.html">05 Containers</a></li>
+            <li><a href="#images">06 Images</a></li>
+            <li><a href="interactive.html">07 Interactive</a></li>
+            <li><a href="#feedback">08 Feedback</a></li>
+        </ul>
+        <h2>Navigation</h2>
+        <ul>
+            <li><a href="navbars.html">09 Navbars</a></li>
+            <li><a href="breadcrumbs.html">10 Breadcrumbs</a></li>
+            <li><a href="#pagination">11 Pagination</a></li>
+        </ul>
+        <h2>Blocks</h2>
+        <ul>
+            <li><a href="hero.html">12 Hero</a></li>
+            <li><a href="carousel.html">13 Carousel</a></li>
+            <li><a href="#slats">14 Slats</a></li>
+            <li><a href="footer.html">15 Footer</a></li>
+        </ul>
+        <h2>Components</h2>
+        <ul>
+            <li><a href="cards.html">16 Cards</a></li>
+            <li><a href="#forms">17 Forms</a></li>
+            <li><a href="accordion.html">18 Accordion</a></li>
+            <li><a href="#lists">19 Lists</a></li>
+        </ul>
+      </nav>
+    </aside>
+
+<!--Mobile Navbar-->
+<nav class="mobile-navbar u-ff-body u-fs-body u-fw-body">
+  <a href="design-system.html">Design System</a>
+  <ul>
+      <li>
+        <span id="navbar-open" onclick="toggleNavbar(true)">
+          <i class="bx bx-menu"></i>
+        </span>
+        <span id="navbar-close" onclick="toggleNavbar(false)">
+          <i class="bx bx-x"></i>
+        </span>
+      </li>
+  </ul>
+</nav>
+
+<section class="cara-content ds-content l-m l-p container-full-width" >
+    <h2 class="u-ff-heading u-fs-heading u-fw-bold text-accent u-ls-1 l-m l-p">Breadcrumbs</h2>
+    
+    <!-- Breadcrumbs -->
+    <nav aria-label="Breadcrumb" class="ds-content l-pb-1">
+        <ul class="breadcrumbs u-ff-body">
+            <li><a href="#homel">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#hotpicks">Featured Products</a></li>
+            <li><a href="#services">Services</a></li>
+            <li>Visit Us</li>
+        </ul>
+     </nav>
+      
+    <div class="ds-code-snippet-container l-flex l-m l-p-4">
+        <pre><code>&lt;nav aria-label="Breadcrumb" class="ds-content l-pb-1"&gt;
+            &lt;ul class="breadcrumbs u-ff-body"&gt;
+                &lt;li&gt;&lt;a href="#home"&gt;Home&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#about"&gt;About&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#hotpicks"&gt;Featured Products&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#services"&gt;Services&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;Visit Us&lt;/li&gt;
+            &lt;/ul&gt;
+         &lt;/nav&gt;</code></pre>
+        
+            
+        <button class="ds-copy-btn" aria-label="Copy to clipboard" onclick="copyToClipboard(this)">Copy</button>
+    </div>
+
+</section>
+  </body>
+</html>
