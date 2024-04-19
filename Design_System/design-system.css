@@ -131,8 +131,8 @@ nav ul {
 
 /*ABOUT ME PAGE STYLES*/
 .c-myimg {
-    width: 20rem; 
-    height: 20rem;
+    width: 24rem; 
+    height: 24rem;
     overflow-x: hidden;
     /* border-radius: 10rem; to make the image circular*/
 }
