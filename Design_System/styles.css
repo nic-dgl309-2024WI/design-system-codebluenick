@@ -30,6 +30,7 @@ ul, ol {
     --clr-accent-light: #F5EEE5;/*very light brown*/
     --clr-accent-dark: #C8B6DD;/*darker shade of purple*/
     --clr-white: #FFF;
+    --clr-highlight: #f4f4f4;/*light grey highlight*/
     
     /*Font variables*/
     /*Typefaces*/
@@ -279,7 +280,7 @@ ul, ol {
 
 /*Sidenav styles(mobile view only)*/
 .on-mobile-sidenav {
-  background-color: #f4f4f4; /* Light background for the sidebar */
+  background-color: var(--clr-highlight); /* Light background for the sidebar */
   padding: 1.2rem 0.8rem; /* Spacing inside the sidebar */
   width: 250px; /* Adjust the width of the sidebar */
   box-shadow: 2px 0 5px rgba(0,0,0,0.2); /* Subtle shadow for depth */
