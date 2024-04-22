@@ -78,7 +78,7 @@ function copyToClipboard(element) {
 // Function to add carousel functionality to the "about" section
 function initializeAboutCarousel() {
   let currentSlide = 0;
-  const slides = document.querySelectorAll('.on-carousel-slide');
+  const slides = document.querySelectorAll('.c-on-carousel__slide');
   const showSlide = (index) => {
       slides.forEach((slide, i) => {
           slide.style.display = i === index ? 'flex' : 'none'; // Show only the active slide

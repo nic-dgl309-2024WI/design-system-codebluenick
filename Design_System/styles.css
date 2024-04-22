@@ -213,20 +213,20 @@ ul, ol {
 /**************************************/
 
 /*TOP NAVBAR STYLES*/
-.on-top-navbar {
+.c-on-top-navbar {
   display: none;/*Hide topnav on mobile view*/
   position: fixed;/*fixed position for top nav*/
 }
 
 /*Add color and padding to top-nav anchors*/
-.on-top-navbar a {
+.c-on-top-navbar a {
   color: var(--clr-primary-text);
   padding: 0.5rem 1rem;
   text-decoration: none;/*remove underline*/
 }
 
 /*Change color and add transition on top nav a hover*/
-.on-top-navbar a:hover {
+.c-on-top-navbar a:hover {
   background: var(--clr-accent);
   border-radius: 6rem;
   color: var(--clr-accent-light);
@@ -308,7 +308,7 @@ ul, ol {
   color: var(--clr-primary-text);
 }
 
-/*BREADCRUMBS STYLES (across all sections)*/
+/*Breadcrumbs STYLES (across all sections)*/
 .breadcrumbs {
   list-style: none;
   padding: 0;
@@ -336,7 +336,7 @@ ul, ol {
 }
 
 /*HERO SECTION STYLES (Welcome message)*/
-.on-hero-section {
+.c-on-hero-section {
   height: 100vh;
   text-align: center;
   /*background-color: var(--clr-secondary-bg);*/
@@ -366,13 +366,13 @@ ul, ol {
 
 
 /*Banner image container styles*/
-.on-banner-container {
+.c-on-banner-container {
   width: 100%;
   padding-top: 25%;
   position: relative;
 }
 
-.on-banner-container img { 
+.c-on-banner-container img { 
   width: 100%;
   position: absolute;
   top: 0;
@@ -380,29 +380,29 @@ ul, ol {
 }
 
 /*Carousel on Card section styles for a little something about the nursery*/
-.on-carousel-card {
+.c-on-carousel-card {
   position: relative;
   /* width: 90%; */
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
   border: 2px solid var(--clr-accent);
 }
 
-.on-carousel-card-head {
+.c-on-carousel-card-head {
   text-align: center;
 }
 
-.on-carousel-content {
+.c-on-carousel__content {
   overflow: hidden;
 }
 
-.on-carousel-slide {
+.c-on-carousel__slide {
   display: none;
   flex: 0 0 100% ;/*each slide will take full width of the container but doesn't grow or shrink*/
   text-align: center;
 }
 
 /* Carousel Card Default & Transition */
-.on-carousel-card {
+.c-on-carousel-card {
   border: 0.1rem solid var(--clr-secondary-bg); /* Light border for definition */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
   border-radius: 0.6rem; /* Rounded corners for a softer look */
@@ -410,13 +410,13 @@ ul, ol {
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
 }
 
-.on-carousel-card:hover {
+.c-on-carousel-card:hover {
   transform: scale(1.03);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);/*increase in box shadow for depth effect*/
 }
 
 
-.on-carousel-btn {
+.c-on-carousel__btn {
   width: 100%;
   background-color: var(--clr-accent);/*button clr*/
   color: var(--clr-white);/*white txt clr*/
@@ -427,7 +427,7 @@ ul, ol {
   transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effects */
 }
 
-.on-carousel-btn:hover {
+.c-on-carousel__btn:hover {
   opacity: 0.8; /* Reduce opacity slightly on hover */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
@@ -725,7 +725,7 @@ ul, ol {
   }
 
   /*TOP NAVBAR styles(desktop)*/
-  .on-top-navbar {
+  .c-on-top-navbar {
     display: flex;
     position: fixed;
     width: 100%;
@@ -744,37 +744,37 @@ ul, ol {
   }
 
   /*Banner image container styles (desktop)*/
-  .on-banner-container {
+  .c-on-banner-container {
   width: 100%;
   padding-top: 25%;
   position: relative;
   }
 
-.on-banner-container img { 
+ .c-on-banner-container img { 
   height: 100%;
   object-fit: cover;
   }
 
   /*Carousel Card styles(desktop)*/
-  .on-carousel-card-section {
+  .c-on-carousel-card-section {
     /*add space between the content above*/
     max-width: 200rem;
   }
-  .on-carousel-card {
+  .c-on-carousel-card {
     width: 80rem; /* Or whatever fixed width is suitable */
     max-width: 100%; /* Prevents overflow on smaller screens */
   }
 
-  .on-carousel-content, .on-carousel-slide {
+  .c-on-carousel__content, .c-on-carousel__slide {
     min-height: 10rem; /* Adjust this for your desktop layout */
   }
 
-  .on-carousel-slide {
+  .c-on-carousel__slide {
     flex: 0 0 100% ;/*each slide will take full width of the container but doesn't grow or shrink*/
     text-align: center;
   }
 
-  .on-carousel-btn {
+  .c-on-carousel__btn {
     width: 50%;/*smaller size on desktop*/
     margin: 0 auto;/*center the button*/
   }
