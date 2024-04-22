@@ -31,7 +31,7 @@ function initializeNavbar() {
 
 // Function to highlight the active navigation link based on the current page URL
 function initializeActiveLinkHighlighting() {
-  var navLinks = document.querySelectorAll('.side-navbar a');
+  var navLinks = document.querySelectorAll('.ds-side-nav a');
   var currentUrl = window.location.pathname.split('/').pop();
 
   navLinks.forEach(function(link) {

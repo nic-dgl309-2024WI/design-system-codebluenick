@@ -86,7 +86,7 @@ body {
 }
 /* Highlight for active section/hover*/
 /*Changes the bg color on hover*/
-.side-navbar a:hover {
+.ds-side-nav a:hover {
   background-color: var(--clr-accent); 
   color: var(--clr-white);
   font-weight: bold;
@@ -94,7 +94,7 @@ body {
 }
 
 /*Changes the color of the active link*/
-.side-navbar a.active {
+.ds-side-nav a.active {
     color: var(--clr-primary-text); 
     font-weight: bold;
 }
