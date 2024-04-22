@@ -812,7 +812,7 @@ ul, ol {
   }
 
   /*Plan your visit section styles (desktop)*/
-  .on-plan-visit {
+  .c-on-plan-visit {
     display: flex;
     flex-direction: row;/*layout side by side*/
     gap: 12rem;/*gap bt para and map*/
