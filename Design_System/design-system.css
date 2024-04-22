@@ -54,7 +54,7 @@ body {
 }
 
 /* Main Content Area - Scrollable */
-.ds-content {
+.c-ds-content {
     /* margin-left: 12rem; Make room for side nav */
     flex-grow: 1;
     max-width: fit-content;
@@ -418,7 +418,7 @@ nav ul {
         height: calc(100vh - 50px); /* Full height minus top nav */
         top: 50px;
     }
-    .ds-content {
+    .c-ds-content {
         margin-top: 0;
         margin-left: 250px; /* Make space for the side nav */
         width: calc(100% - 250px); /* Adjust content width */
